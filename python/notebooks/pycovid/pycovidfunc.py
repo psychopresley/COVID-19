@@ -15,6 +15,7 @@ __date__ = '07/15/2020'
 
 def raw_data_formatter(file_list,file_dir):
     import pandas as pd
+    from datetime import datetime
     from os import path
 
     df = pd.DataFrame()
