@@ -11,14 +11,16 @@ __author__ = 'Márcio Garcia'
 __email__ = 'psycho.presley@gmail.com'
 __license__ = 'GPL'
 __status__ = 'Development'
-__date__ = '07/16/2020'
+__date__ = '07/17/2020'
 
-def commit_to_repo(repo):
+def commit_to_repo(repo, message=None):
     '''
-    Function to execute the commit process to the repo object active branch.
-    It must have the gitpython module correctly imported prior to its use.
+    This function commits to the git repository active branch.
 
-    repo = git object containing the git repository data
+    Parameters
+    ----------
+    repo: obj, gitpython
+        gitpython object containing the git repository data
     '''
     import os
     import sys
@@ -41,17 +43,46 @@ def commit_to_repo(repo):
     now_str = datetime.now()
     now_str = datetime.strftime(now_str, format='%Y-%m-%d %Hh%Mm')
 
-    author = git.Actor('Marcio Garcia','psycho.presley@gmail.com')
-    committer = git.Actor('Marcio Garcia','psycho.presley@gmail.com')
+    if message != None:
+        summary = message
+    else:
+        summary = "automated update {}".format(now_str)
 
     try:
         repo.git.add(update=True)
-        repo.index.commit("automated update {}".format(now_str))
+        repo.index.commit(summary)
         origin = repo.remote(name='origin')
         origin.push()
         print('Commit process succesfull')
     except:
         print('Not able to commit. Please check git information')
+
+
+def get_date_modified(file_path):
+    '''
+    DataFrame object with last modified date information.
+
+    This function returns a DataFrame with the files in the directory given by
+    file_path as index and their last modified date as column
+
+    Parameters
+    ----------
+    file_path : str
+        local directory where the files are located
+    '''
+    from pandas import DataFrame, Series
+    from os import walk, path
+    from time import ctime
+
+    lm_dict = {}
+    for root, dirs, files in walk(file_path):
+        for item in files:
+            if '.csv' in item:
+                lm_dict[item] = ctime(
+                    path.getmtime(path.join(root,item))
+                )
+
+    return DataFrame(Series(lm_dict),columns=['last_modified'])
 
 
 def repo_info(repo):
@@ -61,12 +92,14 @@ def repo_info(repo):
 
     https://www.fullstackpython.com/blog/first-steps-gitpython.html
     '''
+    import os
     repo_path = os.getenv('GIT_REPO_PATH')
     # Repo object used to programmatically interact with Git repositories
 
     # check that the repository loaded correctly
     if not repo.bare:
         print('Repo at {} successfully loaded.'.format(repo_path))
+        print('Repo local path: {}'.format(repo.git.working_dir))
         print('Repo description: {}'.format(repo.description))
         print('Repo active branch: {}'.format(repo.active_branch))
         for remote in repo.remotes:
