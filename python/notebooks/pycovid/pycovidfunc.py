@@ -148,10 +148,8 @@ def raw_data_formatter(file_list,file_dir):
     # Dropping columns that won't be used:
     df.drop(axis=1,labels=['Country_Region','Province_State','Last_Update',
                            'FIPS','Combined_Key','Long_','Lat','Admin2',
-                           'Case-Fatality_Ratio','Incidence_Rate'],inplace=True)
-
-    # Formatting datetime columns:
-    df['Last Update'] = pd.to_datetime(df['Last Update'])
+                           'Case-Fatality_Ratio','Incidence_Rate',
+                           'Last Update'],inplace=True)
 
     # Replacing NaN values on numeric data with 0:
     new_values = {'Deaths': 0, 'Active': 0, 'Recovered': 0,
@@ -160,12 +158,6 @@ def raw_data_formatter(file_list,file_dir):
 
     # Replacing NaN values on non numeric data with '-':
     df.fillna(value='-',inplace=True)
-
-    # Adding date columns:
-    df['Year'] = pd.DatetimeIndex(df['Date']).year
-    df['Month'] = pd.to_datetime(df['Date']).dt.strftime('%b')
-    df['Week'] = pd.DatetimeIndex(df['Date']).week
-    df['Day'] = pd.DatetimeIndex(df['Date']).day
 
     # Establishing number of active cases as the difference between
     # Confirmed cases and Death cases:
