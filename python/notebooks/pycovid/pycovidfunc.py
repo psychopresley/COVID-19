@@ -168,3 +168,69 @@ def raw_data_formatter(file_list,file_dir):
     df['Mortality rate in %']=(df['Deaths']/df['Confirmed']*100).fillna(value=0)
 
     return df
+
+
+def world_data_formatter(df):
+    '''
+    Creates the world data report from the raw data dataframe.
+
+    This function works along the raw_data as returned by the
+    raw_data_formatter function. Changes in raw_data_formatter
+    affect directly this function.
+
+    It creates all columns necessary for analysis with Tableau
+    from the John Hopkins Data Science Center and it returns a
+    new DataFrame object with calculated columns.
+
+    Parameters
+    ----------
+    df: obj, DataFrame
+        the raw data DataFrame as returned by the raw_data_formatter
+        function.
+    '''
+    import pandas as pd
+    from numpy import inf, NaN, where
+    from datetime import datetime
+
+    df_by_country = df.groupby(['Country/Region','Date']).sum().reset_index()
+
+    # Calculating the number of days since the 1st case:
+    df_by_country['Days_since_1st_case'] = df_by_country['Date']
+
+    countries = df_by_country['Country/Region'].unique()
+    for country in countries:
+        idx = where(df_by_country['Country/Region'] == country)
+        first_date = pd.to_datetime(df_by_country['Date'].loc[min(idx[0])])
+        for index in idx[0]:
+            date_diff = (pd.to_datetime(df_by_country.at[index,'Days_since_1st_case']) -
+                         first_date).days
+            df_by_country.at[index,'Days_since_1st_case'] = date_diff
+
+
+    # columns over which the calculations will be performed
+    root_columns = ['Active','Confirmed','Deaths','Recovered']
+
+    # creating columns of daily percentage of increase in values:
+    for col in root_columns:
+        col_daily_inc = col + "_daily_%inc_by_country"
+        col_new_cases = col + '_new_cases'
+        col_new_cases_inc = col + '_new_cases_inc_rate'
+        col_new_cases_inc_speed = col + '_new_cases_inc_rate_speed'
+
+        df_by_country[col_new_cases] = (df_by_country[col] -
+                                        df_by_country[col].shift(periods=1)
+                                       ).fillna(value=0)
+        df_by_country[col_daily_inc] = df_by_country[col].pct_change().replace([inf, NaN], 0)*100
+
+        # 1st derivative of column datas. It represents the rate of change in new cases:
+        df_by_country[col_new_cases_inc] = (df_by_country[col_new_cases] -
+                                            df_by_country[col_new_cases].shift(periods=1)
+                                           ).fillna(value=0)
+
+        # 2nd derivative of column datas. It represents the acceleration of the increase rate
+        # of the new cases:
+        df_by_country[col_new_cases_inc_speed] = (df_by_country[col_new_cases_inc] -
+                                                  df_by_country[col_new_cases_inc].shift(periods=1)
+                                                  ).fillna(value=0)
+
+    return df_by_country
