@@ -53,9 +53,13 @@ def commit_to_repo(repo, message=None):
         repo.index.commit(summary)
         origin = repo.remote(name='origin')
         origin.push()
+        print('----')
         print('Commit process succesfull')
+        print('----')
     except:
+        print('----')
         print('Not able to commit. Please check git information')
+        print('----')
 
 
 def get_date_modified(file_path):
