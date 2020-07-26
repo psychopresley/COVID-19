@@ -152,7 +152,8 @@ def raw_data_formatter(file_list,file_dir):
     # Dropping columns that won't be used:
     df.drop(axis=1,labels=['Country_Region','Province_State','Last_Update',
                            'FIPS','Combined_Key','Long_','Lat','Admin2',
-                           'Case-Fatality_Ratio','Last Update'],inplace=True)
+                           'Incidence_Rate','Case-Fatality_Ratio',
+                           'Last Update'],inplace=True)
 
     # Replacing NaN values on numeric data with 0:
     new_values = {'Deaths': 0, 'Active': 0, 'Recovered': 0,
