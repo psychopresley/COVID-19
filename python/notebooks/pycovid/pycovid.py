@@ -16,7 +16,7 @@ if __name__ == '__main__':
 	import sys
 	import pandas as pd
 	from datetime import datetime, timedelta
-	import pycovidfunc as cv
+	from pycovid import pycovidfunc as cv
 
 	git_dir = r"C:\Program Files\Git\cmd"
 	git_bin = os.path.join(git_dir, "git")
@@ -32,6 +32,7 @@ if __name__ == '__main__':
 	import git
 
 	# Read the config file to check for data file information:
+
 	if 'config.csv' in os.listdir(os.getcwd()):
 	    config = pd.read_csv('config.csv',index_col='var').fillna('-')
 	else:
@@ -39,8 +40,6 @@ if __name__ == '__main__':
 
 	who_data_dir = config.loc['who_data_dir'].path
 	repo = git.Repo(config.loc['git_repo'].path)
-
-	# upstream repository
 	upstream_repo = repo.remotes.upstream
 
 	# Pull upstream base repo and check for modified files:
@@ -49,9 +48,10 @@ if __name__ == '__main__':
 	g = git.Git(upstream_repo)
 	g.pull('upstream','master')
 
+	repo = git.Repo(config.loc['git_repo'].path)
 	lm_after_git_pull = cv.get_date_modified(who_data_dir)
-	count_modified = 0
 
+	count_modified = 0
 	for idx in lm_frame.index:
 	    new_last_modified = lm_after_git_pull.loc[idx].last_modified
 	    if lm_frame.loc[idx].last_modified != new_last_modified:
@@ -130,7 +130,11 @@ if __name__ == '__main__':
 	        config.to_csv('config.csv')
 
 	        # Commit changes to github:
+	        print('-----------')
+	        print('list of diff on github repository:')
+	        print(repo.git.diff(None, name_only=True))
+	        print('commit to github repository')
 	        cv.commit_to_repo(repo)
 	        cv.repo_info(repo)
 	    except:
-	        print('World data report creation aborted. Please verify the raw data file.')    
+	        print('World data report creation aborted. Please verify the raw data file.')
