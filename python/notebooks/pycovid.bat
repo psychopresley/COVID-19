@@ -1,3 +1,4 @@
-@echo off
-%windir%\System32\cmd.exe "/K" C:\Users\user\anaconda3\Scripts\activate.bat C:\Users\user\anaconda3
-call C:\Users\user\Documents\GitHub\COVID-19\python\notebooks>pycovid.py
+@echo on
+call C:\Users\user\anaconda3\Scripts\activate.bat
+call C:\Users\user\anaconda3\python.exe "C:\Users\user\Documents\GitHub\COVID-19\python\notebooks\pycovid.py
+cmd /k
