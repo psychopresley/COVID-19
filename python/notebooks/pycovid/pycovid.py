@@ -296,9 +296,10 @@ if __name__ == '__main__':
 	# and calculates the number of files to update:
 
 	flag = True # flag to indicate update
+	report=[]
 	if count_modified != 0:
-	    print('{} existing file(s) updated since last pull'.format(count_modified))
-	    print('generating new database...')
+	    report.append('{} existing file(s) updated since last pull\n'.format(count_modified))
+	    report.append('generating new database...\n')
 	    try:
 	        df = raw_data_formatter(who_file_list,who_data_dir)
         	new_date = pd.to_datetime(who_file_list[-1].split(sep='.')[0])
@@ -310,9 +311,9 @@ if __name__ == '__main__':
 	        df.to_csv(raw_data_path, index=False)
 	        config.to_csv('config.csv')
 
-	        print('new database generated succesfully!')
+	        report.append('new database generated succesfully!\n')
 	    except:
-	        print('process aborted. No new database generated.')
+	        report.append('process aborted. No new database generated.\n')
 	else:
 	    last_update = pd.to_datetime(config.loc['raw_data'].last_update)
 	    latest_who_file_date = pd.to_datetime(who_file_list[-1].split(sep='.')[0])
@@ -339,22 +340,21 @@ if __name__ == '__main__':
 
 	        df.to_csv(raw_data_path, mode='a', index=False, header=None)
 	        config.to_csv('config.csv')
-	        print('No existing files were updated')
-	        print('%d new file(s) found. All files appended into the raw data file'
+	        report.append('No existing files were updated\n')
+	        report.append('%d new file(s) found. All files appended into the raw data file\n'
 	              % (files_to_update))
 	    else:
 	        flag = False
-	        print('No existing files were updated')
-	        print('0 new files found. No further action necessary')
+	        report.append('No existing files were updated\n')
+	        report.append('0 new files found. No further action necessary\n')
 
-	# Create the world data report from the raw data if any update in the raw data file:
 	if flag:
-	    print('Creating world data file...')
+	    report.append('Creating world data file...\n')
 	    try:
 	        df = pd.read_csv(config.loc['raw_data'].path)
 	        country_report = world_data_formatter(df)
 	        country_report.to_json(config.loc['formatted_data'].path,orient='records')
-	        print('World data report created succesfully!')
+	        report.append('World data report created succesfully!\n')
 
         	new_date = pd.to_datetime(who_file_list[-1].split(sep='.')[0])
         	last_update = datetime.strftime(new_date,format='%m-%d-%Y')
@@ -363,11 +363,17 @@ if __name__ == '__main__':
 	        config.to_csv('config.csv')
 
 	        # Commit changes to github:
-	        print('-----------')
-	        print('list of diff on github repository:')
-	        print(repo.git.diff(None, name_only=True))
-	        print('commit to github repository')
+	        report.append('-----------\n')
+	        report.append('list of diff on github repository:\n')
+	        report.append(repo.git.diff(None, name_only=True)+'\n')
+	        report.append('commit to github repository\n')
 	        commit_to_repo(repo)
 	        repo_info(repo)
 	    except:
-	        print('World data report creation aborted. Please verify the raw data file.')
+	        report.append('World data report creation aborted. Please verify the raw data file.\n')
+
+	# Create the world data report from the raw data if any update in the raw data file:
+	log_name = datetime.now().strftime(format='%Y-%m-%d_%Hh%Mm%Ss.%f')[:-7] + '.txt'
+	log = open(log_name,'+a')
+	log.writelines(report)
+	log.close()
