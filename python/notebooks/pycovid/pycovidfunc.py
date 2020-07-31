@@ -13,7 +13,7 @@ __license__ = 'GPL'
 __status__ = 'Development'
 __date__ = '07/17/2020'
 
-def commit_to_repo(repo, message=None):
+def commit_to_repo(repo, message=None, log=None):
     '''
     This function commits to the git repository active branch.
 
@@ -48,19 +48,23 @@ def commit_to_repo(repo, message=None):
     else:
         summary = "automated update {}".format(now_str)
 
+    if log is None:
+        log=[]
+
     try:
         repo.git.add(update=True)
         repo.index.commit(summary)
         origin = repo.remote(name='origin')
         origin.push()
-        print('----')
-        print('Commit process succesfull')
-        print('----')
+        log.append('----\n')
+        log.append('Commit process succesfull\n')
+        log.append('----\n')
     except:
-        print('----')
-        print('Not able to commit. Please check git information')
-        print('----')
+        log.append('----\n')
+        log.append('Not able to commit. Please check git information\n')
+        log.append('----\n')
 
+    return log
 
 def get_date_modified(file_path):
     '''
@@ -89,7 +93,7 @@ def get_date_modified(file_path):
     return DataFrame(Series(lm_dict),columns=['last_modified'])
 
 
-def repo_info(repo):
+def repo_info(repo,log=None):
     '''
     This function returns the information of the git repository. This algorithm
     is a direct adaptation of the one presented at:
@@ -100,29 +104,33 @@ def repo_info(repo):
     repo_path = os.getenv('GIT_REPO_PATH')
     # Repo object used to programmatically interact with Git repositories
 
+    if log is None:
+        log=[]
+
     # check that the repository loaded correctly
     if not repo.bare:
-        print('Repo at {} successfully loaded.'.format(repo_path))
-        print('Repo local path: {}'.format(repo.git.working_dir))
-        print('Repo description: {}'.format(repo.description))
-        print('Repo active branch: {}'.format(repo.active_branch))
+        log.append('Repo at {} successfully loaded.\n'.format(repo_path))
+        log.append('Repo local path: {}\n'.format(repo.git.working_dir))
+        log.append('Repo description: {}\n'.format(repo.description))
+        log.append('Repo active branch: {}\n'.format(repo.active_branch))
         for remote in repo.remotes:
-            print('Remote named "{}" with URL "{}"'.format(remote, remote.url))
-        print('Last commit for repo: {}.'.format(str(repo.head.commit.hexsha)))
+            log.append('Remote named "{}" with URL "{}"\n'.format(remote, remote.url))
+        log.append('Last commit for repo: {}.\n'.format(str(repo.head.commit.hexsha)))
 
         # take the last commit then print some information
         commits = list(repo.iter_commits('master'))[:1]
 
         for commit in commits:
-            print('----')
-            print('commit: {}'.format(str(commit.hexsha)))
-            print("\"{}\" by {} ({})".format(commit.summary,
+            log.append('----\n')
+            log.append('commit: {}\n'.format(str(commit.hexsha)))
+            log.append("\"{}\" by {} ({})\n".format(commit.summary,
                                              commit.author.name,
                                              commit.author.email))
-            print(str(commit.authored_datetime))
-            print(str("count: {} and size: {}".format(commit.count(),
-                                                      commit.size)))
+            log.append(str(commit.authored_datetime)+'\n')
+            log.append(str("count: {} and size: {}".format(commit.count(),
+                                                      commit.size))+'\n')
 
+    return log
 
 def raw_data_formatter(file_list,file_dir):
     import pandas as pd
