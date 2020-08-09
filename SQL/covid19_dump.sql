@@ -119,6 +119,27 @@ SET @saved_cs_client     = @@character_set_client;
 SET character_set_client = @saved_cs_client;
 
 --
+-- Table structure for table `raw_data`
+--
+
+DROP TABLE IF EXISTS `raw_data`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `raw_data` (
+  `Active` double DEFAULT NULL,
+  `Confirmed` double DEFAULT NULL,
+  `Country/Region` text,
+  `Date` text,
+  `Deaths` double DEFAULT NULL,
+  `Latitude` double DEFAULT NULL,
+  `Longitude` double DEFAULT NULL,
+  `Province/State` text,
+  `Recovered` double DEFAULT NULL,
+  `Mortality rate in %` double DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
 -- Dumping events for database 'covid19'
 --
 
@@ -485,4 +506,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-08-07 16:40:30
+-- Dump completed on 2020-08-08 17:42:40
