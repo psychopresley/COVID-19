@@ -1,0 +1,26 @@
+No existing files were updated
+1 new file(s) found. All files appended into the raw data file
+Creating world data file...
+World data report created succesfully!
+-----------
+list of diff on github repository:
+SQL/covid19_dump.sql
+consolidated_data/country_report.json
+consolidated_data/raw_data.csv
+python/scripts/config.csv
+commit to github repository
+----
+Commit process succesfull
+----
+Repo at None successfully loaded.
+Repo local path: C:\Users\user\Documents\GitHub\COVID-19
+Repo description: covid19 data analysis git project
+Repo active branch: master
+Remote named "origin" with URL "https://github.com/psychopresley/COVID-19.git"
+Remote named "upstream" with URL "https://github.com/CSSEGISandData/COVID-19.git"
+Last commit for repo: 00adf20e087796497151d36c4d2f3da5280312de.
+----
+commit: 00adf20e087796497151d36c4d2f3da5280312de
+"automated update 2020-08-09 07h24m" by psychopresley (psychopresley@gmail.com)
+2020-08-09 07:24:17-03:00
+count: 1677 and size: 260
