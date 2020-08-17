@@ -132,6 +132,12 @@ def repo_info(repo,log=None):
 
     return log
 
+def country_mapping_function(country):
+    if country in country_mapping_dict.keys():
+        return country_mapping_dict[country]
+    else:
+        return country
+
 def raw_data_formatter(file_list,file_dir):
     import pandas as pd
     from datetime import datetime
@@ -170,6 +176,12 @@ def raw_data_formatter(file_list,file_dir):
 
     # Replacing NaN values on non numeric data with '-':
     df.fillna(value='-',inplace=True)
+
+    # mapping the countrie correctly:
+    country_mapping_dict = pd.read_csv('country_map.csv',header=None,index_col=0).to_dict()[1]
+    df['Country/Region'] = df['Country/Region'].transform(lambda x: country_mapping_dict[x]
+                                                          if x in country_mapping_dict.keys()
+                                                          else x)
 
     # Establishing number of active cases as the difference between
     # Confirmed cases and Death cases:
