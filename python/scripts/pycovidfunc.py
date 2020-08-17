@@ -462,6 +462,7 @@ def flourish_point_map(df,parameters,lat,long,file_dir,file_name='point_map'):
     file_name: str
         the name of the *.csv file to be created
     '''
+    from pandas import concat
     from os import path
 
     print('--------------------------')
@@ -470,9 +471,7 @@ def flourish_point_map(df,parameters,lat,long,file_dir,file_name='point_map'):
         df_aux=df[['Country/Region','Date']]
 
         for item in parameters:
-            df_aux = pd.concat([df_aux,
-                                df.groupby('Country/Region')[item].diff().fillna(value=0)],
-                                axis=1).sort_values(by='Date')
+            df_aux = concat([df_aux,df.groupby('Country/Region')[item].diff().fillna(value=0)],axis=1).sort_values(by='Date')
 
         # mapping the country -> Lat/Long:
         df_aux['Latitude'] = df_aux['Country/Region'].transform(lambda x: lat[x]
@@ -489,4 +488,3 @@ def flourish_point_map(df,parameters,lat,long,file_dir,file_name='point_map'):
     finally:
         print('End execution of the flourish point map function.')
         print('--------------------------')
-                        
