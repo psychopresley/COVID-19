@@ -24,7 +24,7 @@ if __name__ == '__main__':
 	curr_dir = os.path.dirname(__file__)
 	dir_files = os.listdir(curr_dir)
 
-	necessary_files = ['config.csv','pycovidfunc.py',
+	necessary_files = ['config_flourish.csv','pycovidfunc.py',
 	                  'coordinates.csv','country_map.csv',
 	                  'region_mapping.csv']
 
@@ -35,12 +35,12 @@ if __name__ == '__main__':
 	import pycovidfunc as cv
 	from time import sleep
 
-	# Reading configuration file:
-	config = pd.read_csv('config.csv',index_col='var').fillna('-')
-	country_report = config.loc['formatted_data'].path
+	# Reading config_flourishuration file:
+	config_flourish = pd.read_csv('config_flourish.csv',index_col='var').fillna('-')
+	country_report = config_flourish.loc['formatted_data'].path
 
 	# Checks if the flourish files directory exists, if not creates it:
-	flourish_dir = config.loc['flourish_data_dir'].path
+	flourish_dir = config_flourish.loc['flourish_data_dir'].path
 	flourish_dir_exists = os.path.exists(flourish_dir)
 
 	if not flourish_dir_exists:
@@ -56,7 +56,7 @@ if __name__ == '__main__':
 	region_mapping_dict = pd.read_csv('region_mapping.csv',header=None,index_col=0).to_dict()[1]
 
 	# 1 - Racing bars chart:
-	initial_date = config.loc['flourish_data_dir'].initial_date
+	initial_date = config_flourish.loc['flourish_data_dir'].initial_date
 	parameters = ['Active','Confirmed','Deaths','Recovered']
 
 	file_dir = os.path.join(flourish_dir,'Racing bar chart')

@@ -294,10 +294,6 @@ def flourish_racing_bars(df,parameters,initial_date,file_dir,file_name='racing_b
     try:
         countries = df['Country/Region'].unique().tolist()
 
-        # The entry 'French Guiana' is resulting in errors in Fourish studio
-        # so it will be removed:
-        countries.remove('French Guiana')
-
         for item in parameters:
             print('creating the {} cases file'.format(item))
             columns = ['Country/Region','Date',item]
