@@ -71,7 +71,7 @@ if __name__ == '__main__':
 
 	flag = True # flag to indicate update
 	report=[]
-	new_db = config.loc['raw_data'].update
+	new_db = config.loc['raw_data','update']
 	if count_modified != 0 or new_db:
 		report.append('{} existing file(s) updated since last pull\n'.format(count_modified))
 		report.append('generating new database...\n')
