@@ -71,7 +71,7 @@ if __name__ == '__main__':
 
 	flag = True # flag to indicate update
 	report=[]
-	if count_modified != 0:
+	if count_modified != 0 or flag:
 	    report.append('{} existing file(s) updated since last pull\n'.format(count_modified))
 	    report.append('generating new database...\n')
 	    try:
