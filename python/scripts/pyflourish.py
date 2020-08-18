@@ -37,64 +37,66 @@ if __name__ == '__main__':
 
 	# Reading configuration file:
 	config = pd.read_csv('config.csv',index_col='var').fillna('-')
-	country_report = config.loc['formatted_data'].path
 
-	# Checks if the flourish files directory exists, if not creates it:
-	flourish_dir = config.loc['flourish_data_dir'].path
-	flourish_dir_exists = os.path.exists(flourish_dir)
+	if config.loc['flourish_data_dir','update']:
+		country_report = config.loc['formatted_data'].path
 
-	if not flourish_dir_exists:
-	    os.mkdir(flourish_dir)
+		# Checks if the flourish files directory exists, if not creates it:
+		flourish_dir = config.loc['flourish_data_dir'].path
+		flourish_dir_exists = os.path.exists(flourish_dir)
 
-	# Reading *.json dataframe file:
-	if not os.path.isfile(country_report):
-	    raise FileNotFoundError('No country_report.json dataframe file found.')
-	else:
-	    df = pd.read_json(country_report)
+		if not flourish_dir_exists:
+		    os.mkdir(flourish_dir)
 
-	# reading region mapping dictionary:
-	region_mapping_dict = pd.read_csv('region_mapping.csv',header=None,index_col=0).to_dict()[1]
+		# Reading *.json dataframe file:
+		if not os.path.isfile(country_report):
+		    raise FileNotFoundError('No country_report.json dataframe file found.')
+		else:
+		    df = pd.read_json(country_report)
 
-	# 1 - Racing bars chart:
-	initial_date = config.loc['flourish_data_dir'].initial_date
-	parameters = ['Active','Confirmed','Deaths','Recovered']
+		# reading region mapping dictionary:
+		region_mapping_dict = pd.read_csv('region_mapping.csv',header=None,index_col=0).to_dict()[1]
 
-	file_dir = os.path.join(flourish_dir,'Racing bar chart')
-	if not os.path.isdir(file_dir):
-		os.mkdir(file_dir)
-	cv.flourish_racing_bars(df,parameters,initial_date,file_dir)
+		# 1 - Racing bars chart:
+		initial_date = config.loc['flourish_data_dir'].initial_date
+		parameters = ['Active','Confirmed','Deaths','Recovered']
 
-	# ===============
-	# 2 - Parliament map:
-	seats = ['Confirmed','Active','Recovered','Deaths']
-	file_dir = os.path.join(flourish_dir,'Parliament map')
-	if not os.path.isdir(file_dir):
-		os.mkdir(file_dir)
-	cv.flourish_parliament_map(df,seats,region_mapping_dict,file_dir)
+		file_dir = os.path.join(flourish_dir,'Racing bar chart')
+		if not os.path.isdir(file_dir):
+			os.mkdir(file_dir)
+		cv.flourish_racing_bars(df,parameters,initial_date,file_dir)
 
-	# ===============
-	# 3 - Point map:
+		# ===============
+		# 2 - Parliament map:
+		seats = ['Confirmed','Active','Recovered','Deaths']
+		file_dir = os.path.join(flourish_dir,'Parliament map')
+		if not os.path.isdir(file_dir):
+			os.mkdir(file_dir)
+		cv.flourish_parliament_map(df,seats,region_mapping_dict,file_dir)
 
-	lat = pd.read_csv('coordinates.csv',header=None,index_col=0).to_dict()[1]
-	long = pd.read_csv('coordinates.csv',header=None,index_col=0).to_dict()[2]
-	parameters = ['Confirmed','Active','Recovered','Deaths']
+		# ===============
+		# 3 - Point map:
 
-	file_dir = os.path.join(flourish_dir,'Point map')
-	if not os.path.isdir(file_dir):
-		os.mkdir(file_dir)
-	cv.flourish_point_map(df,parameters,lat,long,file_dir)
+		lat = pd.read_csv('coordinates.csv',header=None,index_col=0).to_dict()[1]
+		long = pd.read_csv('coordinates.csv',header=None,index_col=0).to_dict()[2]
+		parameters = ['Confirmed','Active','Recovered','Deaths']
 
-	# ===============
-	# 4 - Hierarchy chart:
+		file_dir = os.path.join(flourish_dir,'Point map')
+		if not os.path.isdir(file_dir):
+			os.mkdir(file_dir)
+		cv.flourish_point_map(df,parameters,lat,long,file_dir)
 
-	cases = ['Confirmed','Active','Recovered','Deaths']
+		# ===============
+		# 4 - Hierarchy chart:
 
-	file_dir = os.path.join(flourish_dir,'Hierarchy chart')
-	if not os.path.isdir(file_dir):
-		os.mkdir(file_dir)
-	cv.flourish_hierarchy_chart(df,cases,region_mapping_dict,file_dir)
+		cases = ['Confirmed','Active','Recovered','Deaths']
 
-	# ===============
-	# End script:
-	print('script executed succesfully.')
-	sleep(5)
+		file_dir = os.path.join(flourish_dir,'Hierarchy chart')
+		if not os.path.isdir(file_dir):
+			os.mkdir(file_dir)
+		cv.flourish_hierarchy_chart(df,cases,region_mapping_dict,file_dir)
+
+		# ===============
+		# End script:
+		print('script executed succesfully.')
+		sleep(5)
