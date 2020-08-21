@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
 	necessary_files = ['config.csv','pycovidfunc.py',
 	                  'coordinates.csv','country_map.csv',
-	                  'region_mapping.csv']
+	                  'region_logo.csv','region_mapping.csv']
 
 	for file in necessary_files:
 	    if file not in dir_files:
@@ -95,6 +95,16 @@ if __name__ == '__main__':
 		if not os.path.isdir(file_dir):
 			os.mkdir(file_dir)
 		cv.flourish_hierarchy_chart(df,cases,region_mapping_dict,file_dir)
+
+		# ===============
+		# 5 - Card plot:
+
+		cases = ['Confirmed','Active','Recovered','Deaths']
+
+		file_dir = os.path.join(flourish_dir,'Card plot')
+		if not os.path.isdir(file_dir):
+			os.mkdir(file_dir)
+		cv.flourish_card_plot(df,cases,region_mapping_dict,file_dir)
 
 		# ===============
 		# End script:
