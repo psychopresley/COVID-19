@@ -107,6 +107,24 @@ if __name__ == '__main__':
 		cv.flourish_card_plot(df,cases,region_mapping_dict,file_dir)
 
 		# ===============
+		# 6 - Survey chart:
+
+		cases = ['Active','Recovered','Deaths']
+
+		file_dir = os.path.join(flourish_dir,'Survey chart')
+		if not os.path.isdir(file_dir):
+			os.mkdir(file_dir)
+		cv.flourish_survey_chart(df,cases,region_mapping_dict,file_dir)
+
+		# ===============
+		# 7 - Slope chart:
+
+		file_dir = os.path.join(flourish_dir,'Slope chart')
+		if not os.path.isdir(file_dir):
+			os.mkdir(file_dir)
+		cv.flourish_slope_chart(df,file_dir)
+
+		# ===============
 		# End script:
 		print('script executed succesfully.')
 		sleep(5)
