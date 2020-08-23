@@ -538,7 +538,7 @@ def flourish_card_plot(df,cases,region_mapping_dict,file_dir,file_name='card_plo
             df_aux[item] = df_aux[item].transform(lambda x:qty(x).render(prec=2))
 
         # Saving the first file for the countries parliament chart:
-        df_aux.to_csv(path.join(file_dir,file_name + '.csv'),index=False)
+        df_aux.to_csv(path.join(file_dir,file_name + '.csv'),index=True)
         print('Files created succesfully!')
     except:
         print('Process aborted! No files for flourish studio were created.')
