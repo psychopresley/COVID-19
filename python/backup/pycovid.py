@@ -71,23 +71,26 @@ if __name__ == '__main__':
 
 	flag = True # flag to indicate update
 	report=[]
-	if count_modified != 0:
-	    report.append('{} existing file(s) updated since last pull\n'.format(count_modified))
-	    report.append('generating new database...\n')
-	    try:
-	        df = cv.raw_data_formatter(who_file_list,who_data_dir)
-        	new_date = pd.to_datetime(who_file_list[-1].split(sep='.')[0])
-        	last_update = datetime.strftime(new_date,format='%m-%d-%Y')
+	new_db = config.loc['raw_data','update']
+	if count_modified != 0 or new_db:
+		report.append('{} existing file(s) updated since last pull\n'.format(count_modified))
+		report.append('generating new database...\n')
+		try:
+			df = cv.raw_data_formatter(who_file_list,who_data_dir)
+			new_date = pd.to_datetime(who_file_list[-1].split(sep='.')[0])
+			last_update = datetime.strftime(new_date,format='%m-%d-%Y')
 
-	        raw_data_path = config.loc['raw_data'].path
-	        config.loc['raw_data'].last_update = last_update
+			raw_data_path = config.loc['raw_data'].path
+			config.loc['raw_data','last_update'] = last_update
 
-	        df.to_csv(raw_data_path, index=False)
-	        config.to_csv('config.csv')
+			df.to_csv(raw_data_path, index=False)
+			config.to_csv('config.csv')
 
-	        report.append('new database generated succesfully!\n')
-	    except:
-	        report.append('process aborted. No new database generated.\n')
+			report.append('new database generated succesfully!\n')
+			print('new database created succesfully!')
+		except:
+			report.append('process aborted. No new database generated.\n')
+			print('process aborted. No new database generated')
 	else:
 	    last_update = pd.to_datetime(config.loc['raw_data'].last_update)
 	    latest_who_file_date = pd.to_datetime(who_file_list[-1].split(sep='.')[0])
@@ -110,7 +113,7 @@ if __name__ == '__main__':
 	        # the raw data information in the config file:
 
 	        raw_data_path = config.loc['raw_data'].path
-	        config.loc['raw_data'].last_update = new_date
+	        config.loc['raw_data','last_update'] = new_date
 
 	        df.to_csv(raw_data_path, mode='a', index=False, header=None)
 	        config.to_csv('config.csv')
@@ -133,7 +136,7 @@ if __name__ == '__main__':
         	new_date = pd.to_datetime(who_file_list[-1].split(sep='.')[0])
         	last_update = datetime.strftime(new_date,format='%m-%d-%Y')
 
-        	config.loc['formatted_data'].last_update = last_update
+        	config.loc['formatted_data','last_update'] = last_update
 	        config.to_csv('config.csv')
 
 	        # Commit changes to github:

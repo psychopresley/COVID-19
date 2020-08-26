@@ -259,6 +259,49 @@ def world_data_formatter(df):
 
     return df_by_country
 
+def province_data_formatter(df):
+    '''
+    Creates the world data report from the raw data dataframe.
+
+    This function works along the raw_data as returned by the
+    raw_data_formatter function. Changes in raw_data_formatter
+    affect directly this function.
+
+    It creates all columns necessary for analysis with Power BI
+    from the John Hopkins Data Science Center and it returns a
+    new DataFrame object with calculated columns.
+
+    Parameters
+    ----------
+    raw_data: obj, DataFrame
+        the raw data DataFrame as returned by the raw_data_formatter
+        function.
+    '''
+    from pandas import concat
+
+    columns = ['Province/State','Country/Region','Date','Confirmed',
+               'Active','Recovered','Deaths']
+    df = df[columns].groupby(['Province/State','Country/Region','Date']).sum().reset_index()
+
+    columns = ['Confirmed','Active','Recovered','Deaths']
+    new_cases = [item + ' new cases' for item in columns]
+    df[new_cases] = df.groupby('Province/State')[columns].diff().fillna(value=0)
+
+    columns_mov_avg = columns.copy()
+    columns_mov_avg.extend(new_cases)
+
+    mov_avg = [3,7,15]
+    df_province = df.copy()
+    for day in mov_avg:
+        new_columns = [item + ' {}-day mov avg'.format(day) for item in columns_mov_avg]
+        df_aux = df.groupby('Province/State').rolling(day).mean().fillna(value=0).reset_index()
+        df_aux.drop(['Province/State','level_1'],axis=1,inplace=True)
+        df_aux.columns = new_columns
+
+        df_province = concat([df_province,df_aux],axis=1)
+
+    return df_province
+
 def flourish_racing_bars(df,parameters,initial_date,file_dir,file_name='racing_bars'):
     '''
     With this function it is possible to generate the dataset as used
