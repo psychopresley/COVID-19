@@ -73,8 +73,11 @@ if __name__ == '__main__':
 	report=[]
 	new_db = config.loc['raw_data','update']
 	if count_modified != 0 or new_db:
-		report.append('{} existing file(s) updated since last pull\n'.format(count_modified))
+		string = '{} existing file(s) updated since last pull\n'.format(count_modified)
+		print(string)
+		report.append(string)
 		report.append('generating new database...\n')
+		print('generating new database...\n')
 		try:
 			df = cv.raw_data_formatter(who_file_list,who_data_dir)
 			new_date = pd.to_datetime(who_file_list[-1].split(sep='.')[0])
