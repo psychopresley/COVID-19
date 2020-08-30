@@ -178,7 +178,8 @@ def raw_data_formatter(file_list,file_dir):
     df.fillna(value='-',inplace=True)
 
     # mapping the countrie correctly:
-    country_mapping_dict = pd.read_csv('country_map.csv',header=None,index_col=0).to_dict()[1]
+    label_map = pd.read_csv('label_map.csv',header=None,index_col=0)
+    country_mapping_dict = label_map.loc[label_map[2] == 'country'][1].to_dict()
     df['Country/Region'] = df['Country/Region'].transform(lambda x: country_mapping_dict[x]
                                                           if x in country_mapping_dict.keys()
                                                           else x)
@@ -556,6 +557,7 @@ def flourish_card_plot(df,df_logo,cases,region_mapping_dict,file_dir,file_name='
         the name of the *.csv file to be created
     '''
     from os import path
+    from quantiphy import Quantity as qty
 
     print('--------------------------')
     print('Creating files for the flourish studio card plot')
@@ -658,7 +660,7 @@ def flourish_survey_chart(df,cases,region_mapping_dict,file_dir,
         print('End execution of the flourish survey chart function.')
         print('--------------------------')
 
-def flourish_slope_chart(df,file_dir,file_name='slope_chart',
+def flourish_slope_chart(df,file_dir,region_mapping_dict,file_name='slope_chart',
                          case='Confirmed',initial_month=3):
     '''
     With this function it is possible to generate the dataset as used
@@ -686,9 +688,9 @@ def flourish_slope_chart(df,file_dir,file_name='slope_chart',
     file_name: str
         the name of the *.csv file to be created
     '''
+    import pandas as pd
     from os import path
     from calendar import month_abbr
-    from pandas import DataFrame, concat, read_csv
 
     print('--------------------------')
     print('Creating files for the flourish studio slope chart')
@@ -700,7 +702,7 @@ def flourish_slope_chart(df,file_dir,file_name='slope_chart',
         df['Date'] = df['Date'].transform(lambda x:x.month)
 
         countries = df['Country/Region'].unique()
-        df_slope_chart = DataFrame()
+        df_slope_chart = pd.DataFrame()
 
         for country in countries:
             df_aux = df[columns].loc[df['Country/Region'] == country]
@@ -714,10 +716,14 @@ def flourish_slope_chart(df,file_dir,file_name='slope_chart',
             df_aux[new_case] = df_aux[new_case].transform(lambda x:max(0,x))
             df_aux = df_aux.pivot(index='Country/Region',columns='Date',values=new_case)
 
-            df_slope_chart = concat([df_slope_chart,df_aux]).fillna(value=0)
+            df_slope_chart = pd.concat([df_slope_chart,df_aux]).fillna(value=0)
 
         df_slope_chart.columns = [month_abbr[i] for i in df_slope_chart.columns]
-        df_region = read_csv('region_mapping.csv',index_col = 'Country/Region')
+        #df_region = read_csv('region_mapping.csv',index_col = 'Country/Region')
+        df_region = pd.Series(region_mapping_dict)
+
+        df_region = pd.DataFrame(df_region,columns=['Country/Region (group)'])
+        df_region.index.name = 'Country/Region'
 
         df_slope_chart = df_slope_chart.join(df_region, on = 'Country/Region', how='inner')
 

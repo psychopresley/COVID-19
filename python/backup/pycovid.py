@@ -18,6 +18,7 @@ if __name__ == '__main__':
 	import pandas as pd
 	import pycovidfunc as cv
 	from datetime import datetime, timedelta
+	from time import ctime, sleep
 
 	git_dir = r"C:\Program Files\Git\cmd"
 	git_bin = os.path.join(git_dir, "git")
@@ -69,8 +70,11 @@ if __name__ == '__main__':
 	# Compare the latest WHO file to the raw data update information
 	# and calculates the number of files to update:
 
-	flag = True # flag to indicate update
 	report=[]
+	report.append('\n----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------\n')
+	report.append('\n'+ 'Local time: ' + ctime() + '\n\n')
+
+	flag = True # flag to indicate update
 	new_db = config.loc['raw_data','update']
 	if count_modified != 0 or new_db:
 		string = '{} existing file(s) updated since last pull\n'.format(count_modified)
@@ -95,62 +99,72 @@ if __name__ == '__main__':
 			report.append('process aborted. No new database generated.\n')
 			print('process aborted. No new database generated')
 	else:
-	    last_update = pd.to_datetime(config.loc['raw_data'].last_update)
-	    latest_who_file_date = pd.to_datetime(who_file_list[-1].split(sep='.')[0])
+		last_update = pd.to_datetime(config.loc['raw_data'].last_update)
+		latest_who_file_date = pd.to_datetime(who_file_list[-1].split(sep='.')[0])
 
-	    files_to_update = (latest_who_file_date - last_update).days
+		files_to_update = (latest_who_file_date - last_update).days
 
-	    # Generating the list of new files to update the database
-	    if files_to_update != 0:
-	        list_of_new_files = []
-	        for i in list(range(1,files_to_update + 1)):
-	            new_date = datetime.strftime((last_update
-	                                          + timedelta(days=i)).date(),
-	                                          format='%m-%d-%Y')
-	            list_of_new_files.append(new_date + '.csv')
+		# Generating the list of new files to update the database
+		if files_to_update != 0:
+			list_of_new_files = []
+			for i in list(range(1,files_to_update + 1)):
+			    new_date = datetime.strftime((last_update
+			                                  + timedelta(days=i)).date(),
+			                                  format='%m-%d-%Y')
+			    list_of_new_files.append(new_date + '.csv')
 
-	        # Generating a dataframe with new information:
-	        df = cv.raw_data_formatter(list_of_new_files,who_data_dir)
+			# Generating a dataframe with new information:
+			df = cv.raw_data_formatter(list_of_new_files,who_data_dir)
 
-	        # Appending the new data to existing raw data file and updating
-	        # the raw data information in the config file:
+			# Appending the new data to existing raw data file and updating
+			# the raw data information in the config file:
 
-	        raw_data_path = config.loc['raw_data'].path
-	        config.loc['raw_data','last_update'] = new_date
+			raw_data_path = config.loc['raw_data'].path
+			config.loc['raw_data','last_update'] = new_date
 
-	        df.to_csv(raw_data_path, mode='a', index=False, header=None)
-	        config.to_csv('config.csv')
-	        report.append('No existing files were updated\n')
-	        report.append('%d new file(s) found. All files appended into the raw data file\n'
-	              % (files_to_update))
-	    else:
-	        flag = False
-	        report.append('No existing files were updated\n')
-	        report.append('0 new files found. No further action necessary\n')
+			df.to_csv(raw_data_path, mode='a', index=False, header=None)
+			config.to_csv('config.csv')
+			A_str = 'No existing files were updated\n'
+			B_str = '%d new file(s) found. All files appended into the raw data file\n' % (files_to_update)
+			report.append(A_str)
+			report.append(B_str)
+			print(A_str)
+			print(B_str)
+		else:
+			flag = False
+			A_str = 'No existing files were updated\n'
+			B_str = '0 new files found. No further action necessary\n'
+			print(A_str)
+			print(B_str)
+			report.append(A_str)
+			report.append(B_str)
 
 	if flag:
-	    report.append('Creating world data file...\n')
-	    try:
-	        df = pd.read_csv(config.loc['raw_data'].path)
-	        country_report = cv.world_data_formatter(df)
-	        country_report.to_json(config.loc['formatted_data'].path,orient='records')
-	        report.append('World data report created succesfully!\n')
+		string = 'Creating world data file...\n'
+		report.append(string)
+		print(string)
+		try:
+			df = pd.read_csv(config.loc['raw_data'].path)
+			country_report = cv.world_data_formatter(df)
+			country_report.to_json(config.loc['formatted_data'].path,orient='records')
+			report.append('World data report created succesfully!\n')
+			print('World data report created succesfully!\n')
 
-        	new_date = pd.to_datetime(who_file_list[-1].split(sep='.')[0])
-        	last_update = datetime.strftime(new_date,format='%m-%d-%Y')
+			new_date = pd.to_datetime(who_file_list[-1].split(sep='.')[0])
+			last_update = datetime.strftime(new_date,format='%m-%d-%Y')
 
-        	config.loc['formatted_data','last_update'] = last_update
-	        config.to_csv('config.csv')
+			config.loc['formatted_data','last_update'] = last_update
+			config.to_csv('config.csv')
 
-	        # Commit changes to github:
-	        report.append('-----------\n')
-	        report.append('list of diff on github repository:\n')
-	        report.append(repo.git.diff(None, name_only=True)+'\n')
-	        report.append('commit to github repository\n')
-	        report = cv.commit_to_repo(repo,log=report)
-	        report = cv.repo_info(repo,log=report)
-	    except:
-	        report.append('World data report creation aborted. Please verify the raw data file.\n')
+			# Commit changes to github:
+			report.append('-----------\n')
+			report.append('list of diff on github repository:\n')
+			report.append(repo.git.diff(None, name_only=True)+'\n')
+			report.append('commit to github repository\n')
+			report = cv.commit_to_repo(repo,log=report)
+			report = cv.repo_info(repo,log=report)
+		except:
+		    report.append('World data report creation aborted. Please verify the raw data file.\n')
 
 	# Create the execution report in the directory of the log files:
 	actual_month = calendar.month_name[datetime.now().month]
@@ -168,7 +182,9 @@ if __name__ == '__main__':
 
 	os.chdir(month_dir)
 
-	log_name = datetime.now().strftime(format='%Y-%m-%d_%Hh%Mm%Ss.%f')[:-7] + '.txt'
+	log_name = datetime.now().strftime(format='%Y-%m-%d') + '.txt'
 	log = open(log_name,'+a')
 	log.writelines(report)
 	log.close()
+
+	sleep(3)

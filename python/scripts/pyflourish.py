@@ -25,7 +25,7 @@ if __name__ == '__main__':
 	dir_files = os.listdir(curr_dir)
 
 	necessary_files = ['config.csv','pycovidfunc.py',
-	                  'country_map.csv','flourish.csv']
+	                  'country_map.csv','flourish.csv','label_map']
 
 	for file in necessary_files:
 	    if file not in dir_files:
@@ -126,7 +126,7 @@ if __name__ == '__main__':
 		file_dir = os.path.join(flourish_dir,'Slope chart')
 		if not os.path.isdir(file_dir):
 			os.mkdir(file_dir)
-		cv.flourish_slope_chart(df,file_dir)
+		cv.flourish_slope_chart(df,file_dir,region_mapping_dict)
 
 		# ===============
 		# End script:

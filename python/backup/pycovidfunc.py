@@ -259,6 +259,49 @@ def world_data_formatter(df):
 
     return df_by_country
 
+def province_data_formatter(df):
+    '''
+    Creates the world data report from the raw data dataframe.
+
+    This function works along the raw_data as returned by the
+    raw_data_formatter function. Changes in raw_data_formatter
+    affect directly this function.
+
+    It creates all columns necessary for analysis with Power BI
+    from the John Hopkins Data Science Center and it returns a
+    new DataFrame object with calculated columns.
+
+    Parameters
+    ----------
+    raw_data: obj, DataFrame
+        the raw data DataFrame as returned by the raw_data_formatter
+        function.
+    '''
+    from pandas import concat
+
+    columns = ['Province/State','Country/Region','Date','Confirmed',
+               'Active','Recovered','Deaths']
+    df = df[columns].groupby(['Province/State','Country/Region','Date']).sum().reset_index()
+
+    columns = ['Confirmed','Active','Recovered','Deaths']
+    new_cases = [item + ' new cases' for item in columns]
+    df[new_cases] = df.groupby('Province/State')[columns].diff().fillna(value=0)
+
+    columns_mov_avg = columns.copy()
+    columns_mov_avg.extend(new_cases)
+
+    mov_avg = [3,7,15]
+    df_province = df.copy()
+    for day in mov_avg:
+        new_columns = [item + ' {}-day mov avg'.format(day) for item in columns_mov_avg]
+        df_aux = df.groupby('Province/State').rolling(day).mean().fillna(value=0).reset_index()
+        df_aux.drop(['Province/State','level_1'],axis=1,inplace=True)
+        df_aux.columns = new_columns
+
+        df_province = concat([df_province,df_aux],axis=1)
+
+    return df_province
+
 def flourish_racing_bars(df,parameters,initial_date,file_dir,file_name='racing_bars'):
     '''
     With this function it is possible to generate the dataset as used
@@ -485,7 +528,7 @@ def flourish_point_map(df,parameters,lat,long,file_dir,file_name='point_map'):
         print('End execution of the flourish point map function.')
         print('--------------------------')
 
-def flourish_card_plot(df,cases,region_mapping_dict,file_dir,file_name='card_plot'):
+def flourish_card_plot(df,df_logo,cases,region_mapping_dict,file_dir,file_name='card_plot'):
     '''
     With this function it is possible to generate the dataset as used
     by the card plot viz in Florish Studio
@@ -512,7 +555,6 @@ def flourish_card_plot(df,cases,region_mapping_dict,file_dir,file_name='card_plo
     file_name: str
         the name of the *.csv file to be created
     '''
-    from pandas import read_csv
     from os import path
     from quantiphy import Quantity as qty
 
@@ -524,15 +566,11 @@ def flourish_card_plot(df,cases,region_mapping_dict,file_dir,file_name='card_plo
         df_aux = df[columns].loc[df['Date'] == max(df['Date'])]
 
         # mapping the country -> region:
-        df_aux['Group'] = df_aux['Country/Region'].transform(lambda x: region_mapping_dict[x]
-                                                                      if x in region_mapping_dict.keys()
-                                                                      else x)
+        df_aux['Country/Region (group)'] = df_aux['Country/Region'].transform(lambda x: region_mapping_dict[x] if x in region_mapping_dict.keys() else x)
 
-        df_aux = df_aux.groupby('Group').sum()
+        df_aux = df_aux.groupby('Country/Region (group)').sum()
         df_aux.drop('Other',inplace=True)
-
-        df_logo = read_csv('region_logo.csv', index_col='Group')
-        df_aux = df_aux.join(df_logo, on='Group')
+        df_aux = df_aux.join(df_logo, on='Country/Region (group)')
 
         for item in cases:
             df_aux[item] = df_aux[item].transform(lambda x:qty(x).render(prec=2))
@@ -621,7 +659,7 @@ def flourish_survey_chart(df,cases,region_mapping_dict,file_dir,
         print('End execution of the flourish survey chart function.')
         print('--------------------------')
 
-def flourish_slope_chart(df,file_dir,file_name='slope_chart',
+def flourish_slope_chart(df,file_dir,region_mapping_dict,file_name='slope_chart',
                          case='Confirmed',initial_month=3):
     '''
     With this function it is possible to generate the dataset as used
@@ -649,9 +687,9 @@ def flourish_slope_chart(df,file_dir,file_name='slope_chart',
     file_name: str
         the name of the *.csv file to be created
     '''
+    import pandas as pd
     from os import path
     from calendar import month_abbr
-    from pandas import DataFrame, concat, read_csv
 
     print('--------------------------')
     print('Creating files for the flourish studio slope chart')
@@ -663,7 +701,7 @@ def flourish_slope_chart(df,file_dir,file_name='slope_chart',
         df['Date'] = df['Date'].transform(lambda x:x.month)
 
         countries = df['Country/Region'].unique()
-        df_slope_chart = DataFrame()
+        df_slope_chart = pd.DataFrame()
 
         for country in countries:
             df_aux = df[columns].loc[df['Country/Region'] == country]
@@ -677,10 +715,14 @@ def flourish_slope_chart(df,file_dir,file_name='slope_chart',
             df_aux[new_case] = df_aux[new_case].transform(lambda x:max(0,x))
             df_aux = df_aux.pivot(index='Country/Region',columns='Date',values=new_case)
 
-            df_slope_chart = concat([df_slope_chart,df_aux]).fillna(value=0)
+            df_slope_chart = pd.concat([df_slope_chart,df_aux]).fillna(value=0)
 
         df_slope_chart.columns = [month_abbr[i] for i in df_slope_chart.columns]
-        df_region = read_csv('region_mapping.csv',index_col = 'Country/Region')
+        #df_region = read_csv('region_mapping.csv',index_col = 'Country/Region')
+        df_region = pd.Series(region_mapping_dict)
+
+        df_region = pd.DataFrame(df_region,columns=['Country/Region (group)'])
+        df_region.index.name = 'Country/Region'
 
         df_slope_chart = df_slope_chart.join(df_region, on = 'Country/Region', how='inner')
 

@@ -1,196 +1,187 @@
 Country/Region,Mar,Apr,May,Jun,Jul,Aug,Country/Region (group)
 Afghanistan,0.5,5.2,34.2,42.8,13.5,3.8,Eastern Mediterranean
-Albania,2.6,5.8,4.0,15.2,29.8,42.6,Europe
-Algeria,1.6,7.6,12.4,10.4,38.0,30.0,Africa
+Albania,2.6,5.7,3.9,15.1,29.5,43.1,Europe
+Algeria,1.6,7.5,12.3,10.3,37.7,30.6,Africa
 Andorra,33.4,32.8,1.7,8.1,6.2,17.7,Europe
-Angola,0.2,0.8,2.4,8.0,35.0,53.5,Africa
+Angola,0.2,0.8,2.3,7.8,33.9,55.0,Africa
 Antigua and Barbuda,6.4,18.1,2.1,45.7,23.4,3.2,Americas
-Argentina,0.3,0.9,3.2,12.2,32.3,51.2,Americas
-Armenia,1.2,3.5,16.6,37.4,29.9,11.3,Europe
-Australia,17.7,8.6,1.7,2.8,36.6,32.4,Western Pacific
-Austria,38.2,19.8,4.8,3.9,12.7,20.5,Europe
-Azerbaijan,0.8,4.2,10.3,33.4,39.9,11.4,Europe
-Bahamas,0.6,3.3,1.0,0.1,22.8,72.1,Americas
-Bahrain,1.0,4.8,16.4,30.1,27.8,19.8,Eastern Mediterranean
-Bangladesh,0.0,2.5,12.9,32.1,30.0,22.5,South-East Asia
-Barbados,19.3,28.3,6.6,3.0,7.8,33.7,Americas
-Belarus,0.2,19.4,40.0,27.4,8.0,5.0,Europe
-Belgium,15.2,42.6,11.7,3.6,8.7,18.1,Europe
-Belize,0.2,1.7,0.0,0.7,2.8,94.5,Americas
+Argentina,0.3,0.8,3.1,11.9,31.6,52.3,Americas
+Armenia,1.2,3.5,16.5,37.3,29.8,11.6,Europe
+Australia,17.7,8.6,1.7,2.8,36.5,32.7,Western Pacific
+Austria,37.7,19.5,4.7,3.8,12.5,21.7,Europe
+Azerbaijan,0.8,4.2,10.2,33.3,39.7,11.9,Europe
+Bahamas,0.6,3.1,1.0,0.1,22.0,73.1,Americas
+Bahrain,1.0,4.8,16.3,29.9,27.7,20.3,Eastern Mediterranean
+Bangladesh,0.0,2.5,12.8,31.8,29.8,23.1,South-East Asia
+Barbados,18.8,27.6,6.5,2.9,7.6,35.3,Americas
+Belarus,0.2,19.4,39.9,27.4,8.0,5.2,Europe
+Belgium,15.1,42.3,11.7,3.6,8.7,18.7,Europe
+Belize,0.2,1.6,0.0,0.6,2.5,95.0,Americas
 Benin,0.4,2.6,7.8,45.1,28.3,15.9,Africa
 Bhutan,1.5,1.5,18.5,17.4,12.3,48.2,South-East Asia
-Bolivia,0.1,0.9,7.8,20.3,38.1,32.9,Americas
-Bosnia and Herzegovina,2.2,7.0,3.9,10.1,38.6,38.2,Europe
+Bolivia,0.1,0.9,7.7,20.1,37.8,33.4,Americas
+Bosnia and Herzegovina,2.1,6.8,3.9,9.9,38.0,39.3,Europe
 Botswana,0.1,1.2,0.8,12.3,36.9,48.5,Africa
-Brazil,0.2,2.1,11.2,23.3,33.1,30.0,Americas
+Brazil,0.1,2.1,11.1,23.1,32.8,30.8,Americas
 Brunei,88.9,6.2,2.1,0.0,0.0,2.1,Western Pacific
-Bulgaria,2.5,6.9,6.3,15.4,41.7,27.2,Europe
+Bulgaria,2.4,6.8,6.2,15.3,41.5,27.7,Europe
 Burkina Faso,19.2,28.4,14.9,8.5,10.7,18.2,Africa
-Burma,1.1,21.2,11.4,11.7,8.4,45.1,South-East Asia
-Burundi,0.0,2.1,12.0,24.7,50.1,10.6,Africa
+Burma,0.9,18.2,9.7,10.0,7.2,52.9,South-East Asia
+Burundi,0.0,2.0,11.7,24.0,48.8,13.0,Africa
 Cambodia,39.6,4.8,1.1,5.9,35.9,12.5,Western Pacific
 Cameroon,1.0,8.6,21.3,34.9,24.4,9.9,Africa
-Canada,6.6,35.5,29.4,10.5,9.4,8.6,Americas
-Cape Verde,0.1,3.1,8.4,21.1,32.7,34.6,Africa
+Canada,6.6,35.4,29.3,10.5,9.4,8.8,Americas
+Cape Verde,0.1,3.0,8.3,21.0,32.4,35.1,Africa
 Central African Republic,0.0,1.0,20.4,58.2,18.4,2.0,Africa
 Chad,0.6,6.5,69.9,8.7,6.9,7.1,Africa
-Chile,0.7,3.3,20.6,44.3,18.8,12.4,Americas
-China,2.7,1.9,0.2,0.7,3.2,2.4,Western Pacific
-Colombia,0.2,0.9,3.5,11.5,33.9,50.0,Americas
-Comoros,0.0,0.0,24.9,46.7,17.8,10.4,Africa
-Congo,0.8,4.8,20.7,31.8,29.7,12.2,Africa
-Costa Rica,0.9,1.0,0.9,6.2,37.3,53.7,Americas
-Croatia,9.0,12.7,1.8,5.6,24.7,46.2,Europe
+Chile,0.7,3.3,20.5,44.0,18.7,12.8,Americas
+China,2.7,1.9,0.2,0.7,3.2,2.5,Western Pacific
+Colombia,0.2,0.9,3.5,11.3,33.4,50.7,Americas
+Comoros,0.0,0.0,24.8,46.6,17.7,10.6,Africa
+Congo,0.8,4.8,20.7,31.8,29.6,12.3,Africa
+Costa Rica,0.9,0.9,0.8,6.1,36.2,55.1,Americas
+Croatia,8.7,12.3,1.7,5.4,24.0,47.9,Europe
 Cruise Ship,2.5,1.0,0.0,0.0,0.0,0.0,Other
-Cuba,4.7,34.0,14.1,7.7,6.9,32.5,Americas
-Cyprus,17.5,39.6,6.3,3.6,7.8,24.7,Europe
-Czech Republic,13.9,18.4,6.7,11.3,19.4,30.3,Europe
-Denmark,17.7,36.9,14.7,6.4,6.2,18.1,Europe
+Cuba,4.7,33.5,13.9,7.5,6.8,33.6,Americas
+Cyprus,17.5,39.6,6.3,3.6,7.8,24.9,Europe
+Czech Republic,13.7,18.2,6.6,11.1,19.2,31.2,Europe
+Denmark,17.6,36.7,14.6,6.4,6.2,18.5,Europe
 Djibouti,0.5,19.7,42.1,24.7,7.5,5.6,Eastern Mediterranean
 Dominica,55.0,20.0,0.0,10.0,0.0,10.0,Americas
-Dominican Republic,1.2,6.3,11.0,16.4,39.7,25.4,Americas
+Dominican Republic,1.2,6.3,11.0,16.3,39.6,25.7,Americas
 East Timor,0.0,85.2,0.0,0.0,0.0,11.1,South-East Asia
-Ecuador,2.0,20.2,12.6,15.5,25.8,23.9,Americas
-Egypt,0.7,4.9,19.8,44.1,26.2,4.3,Eastern Mediterranean
-El Salvador,0.1,1.4,8.3,15.4,40.1,34.6,Americas
+Ecuador,2.0,20.1,12.5,15.4,25.6,24.4,Americas
+Egypt,0.7,4.9,19.7,44.0,26.2,4.5,Eastern Mediterranean
+El Salvador,0.1,1.4,8.3,15.4,39.9,34.9,Americas
 Equatorial Guinea,0.2,6.1,20.1,14.1,57.1,2.4,Africa
-Eritrea,4.4,7.6,0.0,51.7,24.0,12.0,Africa
-Estonia,31.8,40.3,7.7,5.1,3.2,11.9,Europe
-Eswatini,0.2,2.0,4.1,11.8,41.2,40.6,Africa
-Ethiopia,0.1,0.2,2.2,9.7,24.3,63.6,Africa
-Faroe Islands,50.0,0.0,0.0,0.0,0.0,0.0,Europe
+Eritrea,4.4,7.5,0.0,51.6,23.9,12.3,Africa
+Estonia,31.5,39.9,7.6,5.1,3.2,12.7,Europe
+Eswatini,0.2,2.0,4.1,11.7,40.7,41.3,Africa
+Ethiopia,0.1,0.2,2.1,9.4,23.5,64.7,Africa
 Fiji,14.3,46.4,0.0,0.0,32.1,3.6,Western Pacific
-Finland,17.6,44.5,23.2,4.4,2.7,7.6,Europe
+Finland,17.5,44.4,23.2,4.4,2.7,7.7,Europe
 France,17.3,37.5,7.1,4.3,7.6,26.2,Europe
 Gabon,0.2,3.1,28.0,32.2,23.0,13.6,Africa
-Gambia,0.1,0.3,0.5,0.9,16.1,82.2,Africa
-Georgia,7.4,29.5,16.8,10.0,16.5,19.7,Europe
-Germany,29.6,37.7,8.4,5.0,6.2,13.1,Europe
-Ghana,0.4,4.4,13.6,22.0,40.4,19.2,Africa
-Greece,13.3,13.0,3.3,5.0,10.9,54.3,Europe
-Greenland,0.0,0.0,0.0,0.0,0.0,0.0,Europe
+Gambia,0.1,0.2,0.5,0.8,15.5,82.8,Africa
+Georgia,7.3,29.3,16.7,9.9,16.4,20.1,Europe
+Germany,29.5,37.6,8.4,4.9,6.2,13.4,Europe
+Ghana,0.4,4.3,13.6,21.9,40.3,19.5,Africa
+Greece,13.1,12.8,3.3,4.9,10.7,55.1,Europe
 Grenada,33.3,45.8,12.5,0.0,4.2,0.0,Americas
-Guatemala,0.1,0.8,6.2,17.8,43.5,31.7,Americas
+Guatemala,0.1,0.8,6.1,17.7,43.0,32.4,Americas
 Guinea,0.2,15.9,23.9,18.2,20.7,21.0,Africa
 Guinea-Bissau,0.3,8.9,47.7,18.0,14.8,10.2,Africa
-Guyana,0.9,5.9,6.0,7.8,14.2,65.0,Americas
-Haiti,0.2,0.8,25.0,47.2,17.8,9.0,Americas
+Guyana,0.9,5.9,6.0,7.8,14.2,65.1,Americas
+Haiti,0.2,0.8,25.0,47.1,17.7,9.2,Americas
 Holy See,41.7,41.7,8.3,0.0,0.0,0.0,Europe
-Honduras,0.2,1.1,7.5,24.4,38.2,28.6,Americas
-Hong Kong,20.0,0.0,0.0,0.0,0.0,0.0,Western Pacific
-Hungary,8.9,41.4,20.0,5.1,6.4,18.3,Europe
-Iceland,54.1,31.6,0.4,1.7,2.1,9.9,Europe
-India,0.0,1.0,4.5,11.4,32.1,51.0,South-East Asia
-Indonesia,0.9,5.2,9.9,18.0,31.3,34.7,South-East Asia
-Iran,11.8,13.5,15.4,20.6,20.7,17.8,Eastern Mediterranean
-Iraq,0.3,0.6,1.9,19.1,33.8,44.3,Eastern Mediterranean
-Ireland,11.3,60.8,15.3,1.7,2.1,8.8,Europe
-Israel,4.8,9.5,1.0,7.3,40.8,36.6,Europe
-Italy,39.2,37.6,10.4,2.9,2.6,6.7,Europe
-Ivory Coast,1.0,6.2,8.8,37.5,36.8,9.8,Africa
-Jamaica,1.7,19.2,8.2,5.8,8.8,56.3,Americas
-Japan,2.6,18.2,4.0,2.8,26.5,45.5,Western Pacific
-Jordan,14.6,9.6,15.3,21.0,3.3,36.2,Eastern Mediterranean
-Kazakhstan,0.3,2.9,7.1,10.8,64.5,14.4,Europe
-Kenya,0.2,1.0,4.7,13.1,42.4,38.6,Africa
+Honduras,0.2,1.1,7.4,24.1,37.6,29.6,Americas
+Hungary,8.6,40.3,19.4,4.9,6.2,20.5,Europe
+Iceland,53.9,31.5,0.4,1.7,2.0,10.2,Europe
+India,0.0,0.9,4.4,11.1,31.3,52.1,South-East Asia
+Indonesia,0.9,5.1,9.7,17.7,30.7,35.9,South-East Asia
+Iran,11.7,13.5,15.3,20.5,20.6,18.2,Eastern Mediterranean
+Iraq,0.3,0.6,1.9,18.8,33.2,45.2,Eastern Mediterranean
+Ireland,11.3,60.5,15.2,1.7,2.1,9.2,Europe
+Israel,4.7,9.3,1.0,7.2,40.3,37.5,Europe
+Italy,39.0,37.4,10.3,2.8,2.6,7.2,Europe
+Ivory Coast,1.0,6.1,8.7,37.3,36.6,10.3,Africa
+Jamaica,1.7,18.3,7.8,5.5,8.3,58.4,Americas
+Japan,2.5,18.0,4.0,2.8,26.2,46.2,Western Pacific
+Jordan,14.4,9.5,15.1,20.8,3.2,37.0,Eastern Mediterranean
+Kazakhstan,0.3,2.9,7.1,10.8,64.4,14.5,Europe
+Kenya,0.2,1.0,4.6,13.0,42.2,38.9,Africa
 Kosovo,0.9,5.4,2.1,14.3,41.2,36.1,Europe
-Kuwait,0.3,4.5,27.5,22.9,24.8,19.9,Eastern Mediterranean
-Kyrgyzstan,0.2,1.5,2.3,8.6,69.5,17.9,Europe
+Kuwait,0.3,4.4,27.3,22.7,24.7,20.5,Eastern Mediterranean
+Kyrgyzstan,0.2,1.5,2.3,8.6,69.3,18.1,Europe
 Laos,31.8,45.5,0.0,0.0,4.5,9.1,Western Pacific
-Latvia,28.9,33.5,15.1,3.8,8.2,10.5,Europe
-Lebanon,2.9,1.6,3.2,3.6,17.8,70.8,Eastern Mediterranean
+Latvia,28.7,33.3,15.1,3.8,8.2,10.9,Europe
+Lebanon,2.8,1.6,3.0,3.4,17.1,72.0,Eastern Mediterranean
 Lesotho,0.0,0.0,0.1,2.4,54.9,42.5,Africa
-Liberia,0.2,10.6,11.3,37.9,31.3,8.6,Africa
-Libya,0.1,0.4,0.8,5.3,22.1,71.3,Eastern Mediterranean
-Liechtenstein,63.2,13.2,0.0,0.0,5.7,17.0,Europe
-Lithuania,19.1,30.2,10.3,5.1,9.2,26.2,Europe
+Liberia,0.2,10.6,11.3,37.7,31.1,9.0,Africa
+Libya,0.1,0.4,0.7,5.2,21.6,72.1,Eastern Mediterranean
+Liechtenstein,62.6,13.1,0.0,0.0,5.6,17.8,Europe
+Lithuania,18.9,29.9,10.2,5.0,9.1,26.9,Europe
 Luxembourg,27.5,20.3,3.0,3.5,30.2,0.0,Europe
-Madagascar,0.4,0.5,4.4,9.8,58.9,26.0,Africa
-Malawi,0.0,0.6,4.5,17.0,51.7,26.2,Africa
-Malaysia,29.4,34.8,19.5,8.8,3.6,3.5,Western Pacific
-Maldives,0.2,6.0,17.5,7.9,19.2,49.2,South-East Asia
-Mali,1.0,16.9,28.3,33.5,12.9,7.3,Africa
-Malta,9.1,16.3,8.4,2.9,8.5,54.7,Europe
+Madagascar,0.4,0.5,4.3,9.8,58.5,26.5,Africa
+Malawi,0.0,0.6,4.5,17.0,51.6,26.2,Africa
+Malaysia,29.4,34.7,19.5,8.8,3.6,3.7,Western Pacific
+Maldives,0.2,5.9,17.2,7.8,18.9,49.9,South-East Asia
+Mali,0.9,16.8,28.1,33.2,12.8,8.1,Africa
+Malta,9.0,16.0,8.3,2.8,8.3,55.4,Europe
 Mauritania,0.1,0.0,7.4,54.7,27.8,10.0,Africa
 Mauritius,39.4,53.2,0.8,1.7,0.8,3.1,Africa
-Mexico,0.2,3.1,12.2,23.1,33.9,27.5,Americas
-Moldova,1.0,9.9,12.1,23.3,22.6,31.1,Europe
+Mexico,0.2,3.1,12.1,22.9,33.6,28.2,Americas
+Moldova,1.0,9.7,12.0,23.0,22.3,32.1,Europe
 Monaco,33.1,27.9,2.6,2.6,11.0,22.1,Europe
 Mongolia,3.7,8.6,46.8,13.6,23.6,3.3,Western Pacific
-Montenegro,2.3,4.6,0.0,4.8,54.1,34.1,Europe
-Morocco,1.1,6.5,5.8,8.1,20.2,58.4,Eastern Mediterranean
-Mozambique,0.2,1.8,4.8,17.2,26.4,49.6,Africa
-Namibia,0.1,0.1,0.1,2.6,27.9,69.2,Africa
-Nepal,0.0,0.1,4.2,32.9,17.0,45.8,South-East Asia
-Netherlands,17.7,37.5,10.0,5.4,5.7,23.7,Europe
-New Zealand,37.4,48.2,1.4,1.4,2.0,9.6,Western Pacific
+Montenegro,2.3,4.5,0.0,4.7,53.4,35.0,Europe
+Morocco,1.0,6.3,5.6,7.9,19.6,59.5,Eastern Mediterranean
+Mozambique,0.2,1.8,4.7,16.9,25.9,50.4,Africa
+Namibia,0.1,0.1,0.1,2.5,27.0,70.1,Africa
+Nepal,0.0,0.1,4.1,32.1,16.6,47.1,South-East Asia
+Netherlands,17.5,37.2,9.9,5.3,5.7,24.3,Europe
+New Zealand,37.4,48.1,1.4,1.4,2.0,9.7,Western Pacific
 Nicaragua,0.1,0.2,16.6,39.2,25.7,18.3,Americas
 Niger,2.2,58.9,20.3,10.0,5.0,3.5,Africa
-Nigeria,0.3,3.4,15.4,29.0,32.6,19.3,Africa
-North Macedonia,2.3,8.0,5.4,29.0,31.2,24.1,Europe
-Norway,43.7,29.3,6.6,4.1,3.4,12.7,Europe
+Nigeria,0.2,3.3,15.3,28.9,32.5,19.7,Africa
+North Macedonia,2.3,7.9,5.3,28.7,30.9,24.8,Europe
+Norway,43.6,29.2,6.6,4.1,3.4,12.9,Europe
 Oman,0.2,2.5,10.7,33.7,46.0,6.9,Eastern Mediterranean
-Others,0.0,0.0,0.0,0.0,0.0,0.0,Other
-Pakistan,0.7,5.0,17.9,48.8,22.0,5.7,Eastern Mediterranean
-Palestine,0.0,0.0,0.0,0.0,0.0,0.0,Eastern Mediterranean
-Panama,1.3,5.9,7.6,22.2,35.0,28.0,Americas
+Pakistan,0.7,5.0,17.8,48.7,22.0,5.8,Eastern Mediterranean
+Panama,1.3,5.9,7.6,22.0,34.7,28.6,Americas
 Papua New Guinea,0.0,1.5,0.0,0.7,13.5,84.1,Western Pacific
-Paraguay,0.4,1.3,4.5,7.8,19.6,66.4,Americas
-Peru,0.2,5.8,20.5,19.4,19.7,34.5,Americas
-Philippines,1.0,3.1,4.6,9.3,26.6,55.4,Western Pacific
-Poland,3.5,16.1,16.7,16.2,17.2,30.2,Europe
-Portugal,13.0,30.8,13.1,16.9,15.6,10.5,Europe
-Puerto Rico,0.0,0.0,0.0,0.0,0.0,0.0,Americas
-Qatar,0.7,10.7,36.8,33.1,12.4,6.3,Eastern Mediterranean
-Republic of Ireland,0.0,0.0,0.0,0.0,0.0,0.0,Europe
-Republic of Korea,0.0,0.0,0.0,0.0,0.0,0.0,Western Pacific
-Romania,2.7,11.8,8.3,9.1,28.3,39.8,Europe
-Russia,0.2,10.7,30.6,24.7,19.6,14.2,Europe
-Rwanda,2.0,4.5,3.4,17.5,26.6,46.0,Africa
+Paraguay,0.4,1.2,4.4,7.5,18.9,67.6,Americas
+Peru,0.2,5.7,20.2,19.2,19.4,35.3,Americas
+Philippines,1.0,3.0,4.5,9.1,26.2,56.2,Western Pacific
+Poland,3.5,16.0,16.5,16.0,17.1,31.0,Europe
+Portugal,13.0,30.6,13.0,16.8,15.5,11.1,Europe
+Qatar,0.7,10.7,36.7,33.1,12.3,6.5,Eastern Mediterranean
+Romania,2.6,11.6,8.2,9.0,27.9,40.7,Europe
+Russia,0.2,10.6,30.5,24.5,19.5,14.7,Europe
+Rwanda,1.9,4.4,3.3,17.0,25.9,47.4,Africa
 Saint Kitts and Nevis,35.3,41.2,0.0,0.0,11.8,0.0,Americas
 Saint Lucia,46.2,15.4,3.8,3.8,23.1,3.8,Americas
 Saint Vincent and the Grenadines,0.0,25.0,16.7,5.0,41.7,10.0,Americas
 San Marino,33.1,46.9,14.4,3.8,0.1,1.5,Europe
 Sao Tome and Principe,0.0,1.1,52.4,25.8,17.5,2.7,Africa
-Saudi Arabia,0.5,6.8,20.0,33.7,27.2,11.8,Eastern Mediterranean
-Senegal,1.3,5.7,20.3,23.5,25.7,23.6,Africa
-Serbia,2.9,26.0,7.7,10.1,35.2,18.1,Europe
+Saudi Arabia,0.5,6.8,19.9,33.6,27.1,12.1,Eastern Mediterranean
+Senegal,1.3,5.6,20.2,23.4,25.6,24.0,Africa
+Serbia,2.9,25.9,7.7,10.1,35.1,18.3,Europe
 Seychelles,5.9,0.7,0.0,51.5,24.3,16.2,Africa
-Sierra Leone,0.0,6.1,36.6,29.9,17.9,9.4,Africa
-Singapore,1.4,26.9,33.0,15.9,14.6,7.9,Western Pacific
-Slovakia,9.7,27.7,3.4,3.9,16.8,38.5,Europe
-Slovenia,28.6,22.4,1.6,4.5,19.9,22.9,Europe
-Somalia,0.1,18.2,42.0,28.9,8.8,1.9,Eastern Mediterranean
-South Africa,0.2,0.7,4.4,19.1,55.1,20.5,Africa
-South Korea,31.2,5.1,3.8,6.9,7.7,26.1,Western Pacific
-South Sudan,0.0,1.4,38.1,40.2,12.5,7.8,Africa
+Sierra Leone,0.0,6.1,36.5,29.8,17.9,9.7,Africa
+Singapore,1.4,26.9,33.0,15.9,14.6,8.0,Western Pacific
+Slovakia,9.4,26.9,3.3,3.8,16.3,40.3,Europe
+Slovenia,28.2,22.1,1.6,4.5,19.6,23.9,Europe
+Somalia,0.1,18.0,41.5,28.6,8.7,3.0,Eastern Mediterranean
+South Africa,0.2,0.7,4.3,19.0,54.9,20.8,Africa
+South Korea,30.7,5.0,3.7,6.8,7.5,27.2,Western Pacific
+South Sudan,0.0,1.3,38.1,40.2,12.5,7.8,Africa
 Spain,21.8,26.8,5.9,2.2,8.9,34.3,Europe
-Sri Lanka,4.8,17.4,32.5,13.9,25.7,5.8,South-East Asia
-Sudan,0.0,3.3,35.0,32.3,18.2,11.0,Eastern Mediterranean
-Suriname,0.2,0.0,0.3,12.8,29.5,57.1,Americas
+Sri Lanka,4.7,17.4,32.4,13.8,25.6,6.0,South-East Asia
+Sudan,0.0,3.3,34.8,32.1,18.1,11.7,Eastern Mediterranean
+Suriname,0.2,0.0,0.3,12.4,28.7,58.3,Americas
 Sweden,5.1,19.1,18.9,35.5,13.7,4.1,Europe
-Switzerland,40.1,31.4,3.1,2.1,8.5,14.8,Europe
-Syria,0.4,1.3,3.1,6.1,18.7,70.5,Eastern Mediterranean
-Taiwan,57.9,22.0,2.7,1.0,4.1,4.1,South-East Asia
-Tajikistan,0.0,0.0,46.2,23.2,17.8,12.6,Europe
+Switzerland,39.7,31.1,3.1,2.0,8.4,15.6,Europe
+Syria,0.3,1.3,3.0,6.0,18.2,71.2,Eastern Mediterranean
+Taiwan,57.8,21.9,2.7,1.0,4.1,4.3,South-East Asia
+Tajikistan,0.0,0.0,46.0,23.1,17.7,13.0,Europe
 Tanzania,3.5,90.6,5.7,0.0,0.0,0.0,Africa
 Thailand,47.2,38.2,3.7,2.6,4.1,3.0,South-East Asia
-Togo,2.4,6.0,23.9,15.2,21.3,31.1,Africa
-Trinidad and Tobago,5.5,1.9,0.1,0.8,2.5,89.1,Americas
-Tunisia,11.4,17.3,2.4,2.8,10.4,55.6,Eastern Mediterranean
-Turkey,5.1,40.2,16.5,13.5,11.7,13.0,Europe
-US,3.2,14.9,12.2,14.3,32.6,22.9,Americas
-Uganda,1.6,1.4,12.1,17.1,9.6,58.1,Africa
-Ukraine,0.5,8.3,11.3,18.4,22.3,39.1,Europe
-United Arab Emirates,0.9,17.2,32.0,20.5,17.2,12.2,Eastern Mediterranean
-United Kingdom,7.6,44.0,31.1,11.4,0.0,8.7,Europe
-Uruguay,21.5,19.6,11.6,7.3,21.1,18.8,Americas
-Uzbekistan,0.4,4.6,3.9,12.0,38.1,41.0,Europe
-Vatican City,0.0,0.0,0.0,0.0,0.0,0.0,Europe
-Venezuela,0.3,0.5,2.7,9.8,29.0,57.7,Americas
-Vietnam,18.9,5.6,5.6,2.6,19.6,46.2,Western Pacific
-West Bank and Gaza,0.2,1.1,0.5,9.3,44.3,44.3,Eastern Mediterranean
+Togo,2.4,5.9,23.5,15.0,20.9,32.3,Africa
+Trinidad and Tobago,5.2,1.8,0.1,0.8,2.4,89.7,Americas
+Tunisia,11.0,16.8,2.3,2.7,10.1,57.0,Eastern Mediterranean
+Turkey,5.1,39.9,16.4,13.5,11.6,13.6,Europe
+US,3.2,14.8,12.1,14.2,32.3,23.5,Americas
+Uganda,1.5,1.4,11.7,16.6,9.3,59.5,Africa
+Ukraine,0.5,8.2,11.1,18.0,21.8,40.4,Europe
+United Arab Emirates,0.9,17.0,31.8,20.4,17.1,12.7,Eastern Mediterranean
+United Kingdom,7.6,43.9,31.0,11.3,0.0,9.0,Europe
+Uruguay,21.3,19.4,11.5,7.2,20.9,19.5,Americas
+Uzbekistan,0.4,4.5,3.9,11.9,37.8,41.5,Europe
+Venezuela,0.3,0.4,2.6,9.6,28.3,58.7,Americas
+Vietnam,18.8,5.6,5.6,2.6,19.5,46.3,Western Pacific
+West Bank and Gaza,0.2,1.0,0.5,9.1,43.4,45.4,Eastern Mediterranean
 Western Sahara,0.0,20.0,30.0,10.0,0.0,0.0,Africa
-Yemen,0.0,0.3,16.3,43.0,29.3,11.1,Eastern Mediterranean
-Zambia,0.3,0.6,8.1,4.6,37.1,49.4,Africa
-Zimbabwe,0.1,0.5,2.2,6.5,40.4,50.4,Africa
+Yemen,0.0,0.3,16.3,42.9,29.3,11.2,Eastern Mediterranean
+Zambia,0.3,0.6,8.0,4.5,36.7,49.9,Africa
+Zimbabwe,0.1,0.5,2.2,6.4,40.2,50.5,Africa
