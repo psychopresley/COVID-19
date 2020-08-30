@@ -528,7 +528,7 @@ def flourish_point_map(df,parameters,lat,long,file_dir,file_name='point_map'):
         print('End execution of the flourish point map function.')
         print('--------------------------')
 
-def flourish_card_plot(df,cases,region_mapping_dict,file_dir,file_name='card_plot'):
+def flourish_card_plot(df,df_logo,cases,region_mapping_dict,file_dir,file_name='card_plot'):
     '''
     With this function it is possible to generate the dataset as used
     by the card plot viz in Florish Studio
@@ -555,9 +555,7 @@ def flourish_card_plot(df,cases,region_mapping_dict,file_dir,file_name='card_plo
     file_name: str
         the name of the *.csv file to be created
     '''
-    from pandas import read_csv
     from os import path
-    from quantiphy import Quantity as qty
 
     print('--------------------------')
     print('Creating files for the flourish studio card plot')
@@ -567,15 +565,11 @@ def flourish_card_plot(df,cases,region_mapping_dict,file_dir,file_name='card_plo
         df_aux = df[columns].loc[df['Date'] == max(df['Date'])]
 
         # mapping the country -> region:
-        df_aux['Group'] = df_aux['Country/Region'].transform(lambda x: region_mapping_dict[x]
-                                                                      if x in region_mapping_dict.keys()
-                                                                      else x)
+        df_aux['Country/Region (group)'] = df_aux['Country/Region'].transform(lambda x: region_mapping_dict[x] if x in region_mapping_dict.keys() else x)
 
-        df_aux = df_aux.groupby('Group').sum()
+        df_aux = df_aux.groupby('Country/Region (group)').sum()
         df_aux.drop('Other',inplace=True)
-
-        df_logo = read_csv('region_logo.csv', index_col='Group')
-        df_aux = df_aux.join(df_logo, on='Group')
+        df_aux = df_aux.join(df_logo, on='Country/Region (group)')
 
         for item in cases:
             df_aux[item] = df_aux[item].transform(lambda x:qty(x).render(prec=2))

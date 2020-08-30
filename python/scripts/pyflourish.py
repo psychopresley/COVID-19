@@ -25,8 +25,7 @@ if __name__ == '__main__':
 	dir_files = os.listdir(curr_dir)
 
 	necessary_files = ['config.csv','pycovidfunc.py',
-	                  'coordinates.csv','country_map.csv',
-	                  'region_logo.csv','region_mapping.csv']
+	                  'country_map.csv','flourish.csv']
 
 	for file in necessary_files:
 	    if file not in dir_files:
@@ -48,14 +47,17 @@ if __name__ == '__main__':
 		if not flourish_dir_exists:
 		    os.mkdir(flourish_dir)
 
-		# Reading *.json dataframe file:
+		# Reading country_report dataframe file:
 		if not os.path.isfile(country_report):
 		    raise FileNotFoundError('No country_report.json dataframe file found.')
 		else:
 		    df = pd.read_json(country_report)
 
+		# Reading flourish configuration dataframe file:
+		flourish = pd.read_csv('flourish.csv',index_col='Country/Region')
+
 		# reading region mapping dictionary:
-		region_mapping_dict = pd.read_csv('region_mapping.csv',header=None,index_col=0).to_dict()[1]
+		region_mapping_dict = flourish['Country/Region (group)'].to_dict()
 
 		# 1 - Racing bars chart:
 		initial_date = config.loc['flourish_data_dir'].initial_date
@@ -77,8 +79,8 @@ if __name__ == '__main__':
 		# ===============
 		# 3 - Point map:
 
-		lat = pd.read_csv('coordinates.csv',header=None,index_col=0).to_dict()[1]
-		long = pd.read_csv('coordinates.csv',header=None,index_col=0).to_dict()[2]
+		lat = flourish['Latitude'].to_dict()
+		long = flourish['Longitude'].to_dict()
 		parameters = ['Confirmed','Active','Recovered','Deaths']
 
 		file_dir = os.path.join(flourish_dir,'Point map')
@@ -100,11 +102,13 @@ if __name__ == '__main__':
 		# 5 - Card plot:
 
 		cases = ['Confirmed','Active','Recovered','Deaths']
+		logo = flourish[['Country/Region (group)','site']].drop_duplicates().dropna()
+		df_logo = logo.set_index('Country/Region (group)')
 
 		file_dir = os.path.join(flourish_dir,'Card plot')
 		if not os.path.isdir(file_dir):
 			os.mkdir(file_dir)
-		cv.flourish_card_plot(df,cases,region_mapping_dict,file_dir)
+		cv.flourish_card_plot(df,df_logo,cases,region_mapping_dict,file_dir)
 
 		# ===============
 		# 6 - Survey chart:
@@ -127,4 +131,4 @@ if __name__ == '__main__':
 		# ===============
 		# End script:
 		print('script executed succesfully.')
-		sleep(5)
+		sleep(3)
