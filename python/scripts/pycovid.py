@@ -92,7 +92,6 @@ if __name__ == '__main__':
 			config.loc['raw_data','last_update'] = last_update
 
 			df.to_csv(raw_data_path, index=False)
-			config.to_csv('config.csv')
 
 			# Creating the province report file:
 			df = df[df['Province/State'] != '-']
@@ -107,6 +106,7 @@ if __name__ == '__main__':
 
 			df.to_csv(province_data_path,index=False)
 			config.loc['province_data','last_update'] = last_update
+			config.to_csv('config.csv')
 
 			report.append('new database generated succesfully!\n')
 			print('new database created succesfully!')
@@ -135,10 +135,26 @@ if __name__ == '__main__':
 			# the raw data information in the config file:
 
 			raw_data_path = config.loc['raw_data'].path
+			province_data_path = config.loc['province_data'].path
 			config.loc['raw_data','last_update'] = new_date
 
 			df.to_csv(raw_data_path, mode='a', index=False, header=None)
+
+			# Creating the province report file:
+			df = df[df['Province/State'] != '-']
+			df = df[df['Province/State'] != 'Recovered']
+
+			columns = ['Province/State','Country/Region','Date','Confirmed',
+			           'Active','Recovered','Deaths']
+			df = df[columns].groupby(['Province/State','Country/Region',
+			                          'Date']).sum().reset_index()
+			df.columns = ['Province', 'Country', 'Date', 'Confirmed', 'Active',
+			       'Recovered', 'Deaths']
+
+			df.to_csv(province_data_path, mode='a', index=False, header=None)
+			config.loc['province_data','last_update'] = new_date
 			config.to_csv('config.csv')
+
 			A_str = 'No existing files were updated\n'
 			B_str = '%d new file(s) found. All files appended into the raw data file\n' % (files_to_update)
 			report.append(A_str)

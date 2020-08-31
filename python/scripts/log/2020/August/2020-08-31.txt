@@ -65,3 +65,42 @@ commit: e7b8d4aefb0b6d4545c3a802e026f9deb81703eb
 "automated update 2020-08-31 10h48m" by psychopresley (psychopresley@gmail.com)
 2020-08-31 10:48:41-03:00
 count: 1892 and size: 260
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Mon Aug 31 10:59:24 2020
+
+0 existing file(s) updated since last pull
+generating new database...
+new database generated succesfully!
+Creating world data file...
+World data report created succesfully!
+-----------
+list of diff on github repository:
+python/notebooks/Covid19_province.ipynb
+python/scripts/config.csv
+python/scripts/log/2020/August/2020-08-31.txt
+python/scripts/pycovid.py
+commit to github repository
+----
+Commit process succesfull
+----
+Repo at None successfully loaded.
+Repo local path: C:\Users\user\Documents\GitHub\COVID-19
+Repo description: covid19 data analysis git project
+Repo active branch: master
+Remote named "origin" with URL "https://github.com/psychopresley/COVID-19.git"
+Remote named "upstream" with URL "https://github.com/CSSEGISandData/COVID-19.git"
+Last commit for repo: 550915977d9cd9ace1f6459a087df075bbfa8704.
+----
+commit: 550915977d9cd9ace1f6459a087df075bbfa8704
+"automated update 2020-08-31 11h00m" by psychopresley (psychopresley@gmail.com)
+2020-08-31 11:00:52-03:00
+count: 1893 and size: 260
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Mon Aug 31 11:12:45 2020
+
+No existing files were updated
+0 new files found. No further action necessary
