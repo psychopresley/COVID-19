@@ -178,7 +178,8 @@ def raw_data_formatter(file_list,file_dir):
     df.fillna(value='-',inplace=True)
 
     # mapping the countrie correctly:
-    country_mapping_dict = pd.read_csv('country_map.csv',header=None,index_col=0).to_dict()[1]
+    label_map = pd.read_csv('label_map.csv',header=None,index_col=0)
+    country_mapping_dict = label_map.loc[label_map[2] == 'country'][1].to_dict()
     df['Country/Region'] = df['Country/Region'].transform(lambda x: country_mapping_dict[x]
                                                           if x in country_mapping_dict.keys()
                                                           else x)

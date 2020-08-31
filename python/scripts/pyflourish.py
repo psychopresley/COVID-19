@@ -25,7 +25,7 @@ if __name__ == '__main__':
 	dir_files = os.listdir(curr_dir)
 
 	necessary_files = ['config.csv','pycovidfunc.py',
-	                  'country_map.csv','flourish.csv','label_map']
+	                  'label_map.csv','flourish.csv']
 
 	for file in necessary_files:
 	    if file not in dir_files:
