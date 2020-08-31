@@ -88,10 +88,25 @@ if __name__ == '__main__':
 			last_update = datetime.strftime(new_date,format='%m-%d-%Y')
 
 			raw_data_path = config.loc['raw_data'].path
+			province_data_path = config.loc['province_data'].path
 			config.loc['raw_data','last_update'] = last_update
 
 			df.to_csv(raw_data_path, index=False)
 			config.to_csv('config.csv')
+
+			# Creating the province report file:
+			df = df[df['Province/State'] != '-']
+			df = df[df['Province/State'] != 'Recovered']
+
+			columns = ['Province/State','Country/Region','Date','Confirmed',
+			           'Active','Recovered','Deaths']
+			df = df[columns].groupby(['Province/State','Country/Region',
+			                          'Date']).sum().reset_index()
+			df.columns = ['Province', 'Country', 'Date', 'Confirmed', 'Active',
+			       'Recovered', 'Deaths']
+
+			df.to_csv(province_data_path,index=False)
+			config.loc['province_data','last_update'] = last_update
 
 			report.append('new database generated succesfully!\n')
 			print('new database created succesfully!')
