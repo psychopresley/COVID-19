@@ -1,0 +1,25 @@
+0 existing file(s) updated since last pull
+generating new database...
+new database generated succesfully!
+Creating world data file...
+World data report created succesfully!
+-----------
+list of diff on github repository:
+PowerBI/covid19.pbix
+python/notebooks/Covid19_Brazil.ipynb
+commit to github repository
+----
+Commit process succesfull
+----
+Repo at None successfully loaded.
+Repo local path: C:\Users\user\Documents\GitHub\COVID-19
+Repo description: covid19 data analysis git project
+Repo active branch: master
+Remote named "origin" with URL "https://github.com/psychopresley/COVID-19.git"
+Remote named "upstream" with URL "https://github.com/CSSEGISandData/COVID-19.git"
+Last commit for repo: ecf2285b6b933b3a9932e1feaaa48161e6e94033.
+----
+commit: ecf2285b6b933b3a9932e1feaaa48161e6e94033
+"automated update 2020-08-23 19h50m" by psychopresley (psychopresley@gmail.com)
+2020-08-23 19:50:41-03:00
+count: 1841 and size: 260

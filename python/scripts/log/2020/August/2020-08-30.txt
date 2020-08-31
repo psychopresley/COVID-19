@@ -1,0 +1,115 @@
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Sun Aug 30 07:00:44 2020
+
+No existing files were updated
+1 new file(s) found. All files appended into the raw data file
+Creating world data file...
+World data report created succesfully!
+-----------
+list of diff on github repository:
+Flourish/Card plot/card_plot.csv
+Flourish/Hierarchy chart/hierarchy_chart.csv
+Flourish/Parliament map/parliament_map_country.csv
+Flourish/Parliament map/parliament_map_region.csv
+Flourish/Point map/point_map.csv
+Flourish/Racing bar chart/racing_bars_Active.csv
+Flourish/Racing bar chart/racing_bars_Confirmed.csv
+Flourish/Racing bar chart/racing_bars_Deaths.csv
+Flourish/Racing bar chart/racing_bars_Recovered.csv
+Flourish/Slope chart/slope_chart.csv
+Flourish/Survey chart/survey_chart.csv
+consolidated_data/country_report.json
+consolidated_data/raw_data.csv
+python/backup/config.csv
+python/backup/pycovid.py
+python/notebooks/config.csv
+python/scripts/__pycache__/pycovidfunc.cpython-37.pyc
+python/scripts/config.csv
+python/scripts/coordinates.csv
+python/scripts/pycovid.py
+python/scripts/pycovidfunc.py
+python/scripts/pyflourish.bat
+python/scripts/pyflourish.py
+python/scripts/region_mapping.csv
+commit to github repository
+----
+Commit process succesfull
+----
+Repo at None successfully loaded.
+Repo local path: C:\Users\user\Documents\GitHub\COVID-19
+Repo description: covid19 data analysis git project
+Repo active branch: master
+Remote named "origin" with URL "https://github.com/psychopresley/COVID-19.git"
+Remote named "upstream" with URL "https://github.com/CSSEGISandData/COVID-19.git"
+Last commit for repo: 7e57c04f40b448dc708b3161cdeaaf735012bb17.
+----
+commit: 7e57c04f40b448dc708b3161cdeaaf735012bb17
+"automated update 2020-08-30 07h01m" by psychopresley (psychopresley@gmail.com)
+2020-08-30 07:01:20-03:00
+count: 1886 and size: 260
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Sun Aug 30 15:34:42 2020
+
+No existing files were updated
+0 new files found. No further action necessary
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Sun Aug 30 15:35:17 2020
+
+0 existing file(s) updated since last pull
+generating new database...
+new database generated succesfully!
+Creating world data file...
+World data report created succesfully!
+-----------
+list of diff on github repository:
+Flourish/Card plot/card_plot.csv
+Flourish/Hierarchy chart/hierarchy_chart.csv
+Flourish/Parliament map/parliament_map_country.csv
+Flourish/Parliament map/parliament_map_region.csv
+Flourish/Point map/point_map.csv
+Flourish/Racing bar chart/racing_bars_Active.csv
+Flourish/Racing bar chart/racing_bars_Confirmed.csv
+Flourish/Racing bar chart/racing_bars_Deaths.csv
+Flourish/Racing bar chart/racing_bars_Recovered.csv
+Flourish/Slope chart/slope_chart.csv
+Flourish/Survey chart/survey_chart.csv
+consolidated_data/raw_data.csv
+python/backup/pycovid.py
+python/backup/pycovidfunc.py
+python/scripts/__pycache__/pycovidfunc.cpython-37.pyc
+python/scripts/config.csv
+python/scripts/country_map.csv
+python/scripts/pycovid.bat
+python/scripts/pycovidfunc.py
+python/scripts/pyflourish.bat
+python/scripts/pyflourish.py
+python/scripts/region_logo.csv
+commit to github repository
+----
+Commit process succesfull
+----
+Repo at None successfully loaded.
+Repo local path: C:\Users\user\Documents\GitHub\COVID-19
+Repo description: covid19 data analysis git project
+Repo active branch: master
+Remote named "origin" with URL "https://github.com/psychopresley/COVID-19.git"
+Remote named "upstream" with URL "https://github.com/CSSEGISandData/COVID-19.git"
+Last commit for repo: 4fd3f18f132a88d545516829c20c5c32ce282269.
+----
+commit: 4fd3f18f132a88d545516829c20c5c32ce282269
+"automated update 2020-08-30 15h36m" by psychopresley (psychopresley@gmail.com)
+2020-08-30 15:36:40-03:00
+count: 1887 and size: 260
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Sun Aug 30 17:22:05 2020
+
+No existing files were updated
+0 new files found. No further action necessary
