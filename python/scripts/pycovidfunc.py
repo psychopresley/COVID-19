@@ -180,8 +180,12 @@ def raw_data_formatter(file_list,file_dir):
     # mapping the countrie correctly:
     label_map = pd.read_csv('label_map.csv',header=None,index_col=0)
     country_mapping_dict = label_map.loc[label_map[2] == 'country'][1].to_dict()
+    province_mapping_dict = label_map.loc[label_map[2] == 'province'][1].to_dict()
     df['Country/Region'] = df['Country/Region'].transform(lambda x: country_mapping_dict[x]
                                                           if x in country_mapping_dict.keys()
+                                                          else x)
+    df['Province/State'] = df['Province/State'].transform(lambda x: province_mapping_dict[x]
+                                                          if x in province_mapping_dict.keys()
                                                           else x)
 
     # Establishing number of active cases as the difference between
