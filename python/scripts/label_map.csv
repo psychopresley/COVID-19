@@ -2,8 +2,8 @@
  Azerbaijan,Azerbaijan,country
 "Bahamas, The",Bahamas,country
 Cabo Verde,Cape Verde,country
-Congo (Brazzaville),Congo,country
-Congo (Kinshasa),Congo,country
+Congo (Brazzaville),Congo-Brazzaville,country
+Congo (Kinshasa),Democratic Republic of Congo,country
 Cote d'Ivoire,Ivory Coast,country
 Czechia,Czech Republic,country
 Hong Kong SAR,Hong Kong,country
@@ -13,7 +13,7 @@ Macao SAR,China,country
 Macau,China,country
 Mainland China,China,country
 occupied Palestinian territory,Palestine,country
-Republic of the Congo,Congo,country
+Republic of the Congo,Congo-Brazzaville,country
 Republic of Moldova,Moldova,country
 Russian Federation,Russia,country
 Saint Martin,Netherlands,country
@@ -39,10 +39,6 @@ Isle of Man,United Kingdom,country
 Montserrat,United Kingdom,country
 Northern Ireland,United Kingdom,country
 Scotland,United Kingdom,country
-Turks and Caicos Islands,United Kingdom,country
-Jersey,United Kingdom,country
-Guernsey,United Kingdom,country
-Wales,United Kingdom,country
 French Guiana,France,country
 French Polynesia,France,country
 Guadeloupe,France,country
