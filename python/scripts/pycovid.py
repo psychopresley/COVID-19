@@ -163,6 +163,7 @@ if __name__ == '__main__':
 			print(B_str)
 		else:
 			flag = False
+			config.loc['flourish_data_dir','update'] = 0
 			A_str = 'No existing files were updated\n'
 			B_str = '0 new files found. No further action necessary\n'
 			print(A_str)
@@ -171,6 +172,7 @@ if __name__ == '__main__':
 			report.append(B_str)
 
 	if flag:
+		config.loc['flourish_data_dir','update'] = 1
 		string = 'Creating world data file...\n'
 		report.append(string)
 		print(string)
