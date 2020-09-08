@@ -106,7 +106,7 @@ if __name__ == '__main__':
 
 			df.to_csv(province_data_path,index=False)
 			config.loc['province_data','last_update'] = last_update
-			config.to_csv('config.csv')
+			#config.to_csv('config.csv')
 
 			report.append('new database generated succesfully!\n')
 			print('new database created succesfully!')
@@ -153,7 +153,7 @@ if __name__ == '__main__':
 
 			df.to_csv(province_data_path, mode='a', index=False, header=None)
 			config.loc['province_data','last_update'] = new_date
-			config.to_csv('config.csv')
+			#config.to_csv('config.csv')
 
 			A_str = 'No existing files were updated\n'
 			B_str = '%d new file(s) found. All files appended into the raw data file\n' % (files_to_update)
@@ -187,7 +187,7 @@ if __name__ == '__main__':
 			last_update = datetime.strftime(new_date,format='%m-%d-%Y')
 
 			config.loc['formatted_data','last_update'] = last_update
-			config.to_csv('config.csv')
+			#config.to_csv('config.csv')
 
 			# Commit changes to github:
 			report.append('-----------\n')
@@ -198,6 +198,8 @@ if __name__ == '__main__':
 			report = cv.repo_info(repo,log=report)
 		except:
 		    report.append('World data report creation aborted. Please verify the raw data file.\n')
+
+	config.to_csv('config.csv')
 
 	# Create the execution report in the directory of the log files:
 	actual_month = calendar.month_name[datetime.now().month]
