@@ -1,7 +1,7 @@
 var,path,last_update,initial_date,update
-raw_data,C:\Users\user\Documents\GitHub\COVID-19\consolidated_data\raw_data.csv,09-11-2020,-,0
-province_data,C:\Users\user\Documents\GitHub\COVID-19\consolidated_data\province_report.csv,09-11-2020,-,0
-formatted_data,C:\Users\user\Documents\GitHub\COVID-19\consolidated_data\country_report.json,09-11-2020,-,0
-flourish_data_dir,C:\Users\user\Documents\GitHub\COVID-19\Flourish,08-14-2020,2020-03-06,0
+raw_data,C:\Users\user\Documents\GitHub\COVID-19\consolidated_data\raw_data.csv,09-12-2020,-,0
+province_data,C:\Users\user\Documents\GitHub\COVID-19\consolidated_data\province_report.csv,09-12-2020,-,0
+formatted_data,C:\Users\user\Documents\GitHub\COVID-19\consolidated_data\country_report.json,09-12-2020,-,0
+flourish_data_dir,C:\Users\user\Documents\GitHub\COVID-19\Flourish,08-14-2020,2020-03-06,1
 who_data_dir,C:\Users\user\Documents\GitHub\COVID-19\csse_covid_19_data\csse_covid_19_daily_reports,-,-,0
 git_repo,C:\Users\user\Documents\GitHub\COVID-19,-,-,0
