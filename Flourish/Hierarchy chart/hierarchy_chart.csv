@@ -1,188 +1,188 @@
 Country/Region,Confirmed,Active,Recovered,Deaths,Group
-Afghanistan,39044,5027,32576,1441,Eastern Mediterranean
-Albania,12385,5083,6940,362,Europe
-Algeria,49826,13107,35047,1672,Africa
-Andorra,1564,347,1164,53,Europe
-Angola,3991,2394,1445,152,Africa
+Afghanistan,39074,5054,32576,1444,Eastern Mediterranean
+Albania,12535,5176,6995,364,Europe
+Algeria,50023,13164,35180,1679,Africa
+Andorra,1681,429,1199,53,Europe
+Angola,4117,2514,1449,154,Africa
 Antigua and Barbuda,96,1,92,3,Americas
-Argentina,631365,130081,488231,13053,Americas
-Armenia,47431,3893,42608,930,Europe
-Australia,26912,2000,24061,851,Western Pacific
-Austria,38095,8100,29229,766,Europe
-Azerbaijan,39188,1858,36755,575,Europe
-Bahamas,3315,1552,1689,74,Americas
-Bahrain,65039,6868,57950,221,Eastern Mediterranean
-Bangladesh,348918,87414,256565,4939,South-East Asia
+Argentina,640147,118102,508563,13482,Americas
+Armenia,47552,3979,42637,936,Europe
+Australia,26942,1933,24155,854,Western Pacific
+Austria,38658,8375,29516,767,Europe
+Azerbaijan,39280,1868,36836,576,Europe
+Bahamas,3418,1572,1771,75,Americas
+Bahrain,65752,6902,58626,224,Eastern Mediterranean
+Bangladesh,350621,86925,258717,4979,South-East Asia
 Barbados,189,9,173,7,Americas
-Belarus,75674,1629,73265,780,Europe
-Belgium,102295,73382,18965,9948,Europe
-Belize,1627,688,918,21,Americas
-Benin,2280,290,1950,40,Africa
-Bhutan,261,69,192,0,South-East Asia
-Bolivia,130676,33442,89617,7617,Americas
-Bosnia and Herzegovina,25428,6787,17878,763,Europe
+Belarus,75898,1812,73301,785,Europe
+Belgium,103392,74465,18977,9950,Europe
+Belize,1635,647,967,21,Americas
+Benin,2294,300,1954,40,Africa
+Bhutan,261,67,194,0,South-East Asia
+Bolivia,130986,33092,90240,7654,Americas
+Bosnia and Herzegovina,25521,6642,18109,770,Europe
 Botswana,2567,1930,624,13,Africa
-Brazil,4544629,444288,3963446,136895,Americas
+Brazil,4558040,427336,3993432,137272,Americas
 Brunei,145,0,142,3,Western Pacific
-Bulgaria,18863,4522,13580,761,Europe
-Burkina Faso,1846,603,1187,56,Africa
-Burma,5805,4451,1260,94,South-East Asia
-Burundi,473,10,462,1,Africa
+Bulgaria,19014,4522,13727,765,Europe
+Burkina Faso,1896,651,1189,56,Africa
+Burma,6471,4926,1445,100,South-East Asia
+Burundi,474,11,462,1,Africa
 Cambodia,275,1,274,0,Western Pacific
-Cameroon,20431,891,19124,416,Africa
-Canada,145750,9891,126592,9267,Americas
-Cape Verde,5257,607,4599,51,Africa
+Cameroon,20598,1058,19124,416,Africa
+Canada,147583,10620,127684,9279,Americas
+Cape Verde,5281,555,4674,52,Africa
 Central African Republic,4786,2894,1830,62,Africa
-Chad,1151,103,967,81,Africa
-Chile,446274,14242,419746,12286,Americas
-China,90369,393,85239,4737,Western Pacific
-Colombia,765076,107669,633199,24208,Americas
+Chad,1153,105,967,81,Africa
+Chile,447468,14059,421111,12298,Americas
+China,90381,387,85257,4737,Western Pacific
+Colombia,770435,105138,640900,24397,Americas
 Comoros,470,13,450,7,Africa
-Congo-Brazzaville,4986,1010,3887,89,Africa
-Costa Rica,63712,39454,23552,706,Americas
-Croatia,14922,2138,12536,248,Europe
+Congo-Brazzaville,5002,1026,3887,89,Africa
+Costa Rica,65602,39730,25127,745,Americas
+Croatia,14992,2002,12737,253,Europe
 Cruise Ship,721,55,651,15,Other
-Cuba,5091,564,4412,115,Americas
-Cyprus,1600,296,1282,22,Europe
-Czech Republic,49290,24032,24755,503,Europe
-Democratic Republic of Congo,10515,314,9930,271,Africa
-Denmark,23353,4775,17940,638,Europe
-Djibouti,5403,7,5335,61,Eastern Mediterranean
+Cuba,5141,563,4462,116,Americas
+Cyprus,1603,212,1369,22,Europe
+Czech Republic,50764,24817,25425,522,Europe
+Democratic Republic of Congo,10519,296,9952,271,Africa
+Denmark,23774,4969,18165,640,Europe
+Djibouti,5404,7,5336,61,Eastern Mediterranean
 Dominica,24,6,18,0,Americas
-Dominican Republic,108289,24574,81668,2047,Americas
-East Timor,27,1,26,0,South-East Asia
-Ecuador,126419,12477,102852,11090,Americas
-Egypt,102015,6713,89532,5770,Eastern Mediterranean
-El Salvador,27553,5181,21561,811,Americas
+Dominican Republic,108783,24455,82274,2054,Americas
+East Timor,27,0,27,0,South-East Asia
+Ecuador,126711,12764,102852,11095,Americas
+Egypt,102141,6022,90332,5787,Eastern Mediterranean
+El Salvador,27798,5204,21782,812,Americas
 Equatorial Guinea,5002,410,4509,83,Africa
 Eritrea,364,59,305,0,Africa
-Estonia,2924,483,2377,64,Europe
-Eswatini,5269,541,4624,104,Africa
-Ethiopia,68820,39410,28314,1096,Africa
+Estonia,2941,498,2379,64,Europe
+Eswatini,5282,531,4647,104,Africa
+Ethiopia,69709,39967,28634,1108,Africa
 Fiji,32,4,26,2,Western Pacific
-Finland,8980,941,7700,339,Europe
-France,467614,342771,93586,31257,Europe
-Gabon,8696,795,7848,53,Africa
+Finland,9046,1005,7700,341,Europe
+France,496851,371216,94289,31346,Europe
+Gabon,8704,775,7875,54,Africa
 Gambia,3526,1426,1992,108,Africa
-Georgia,3502,1989,1494,19,Europe
-Germany,273965,23383,241192,9390,Europe
-Ghana,46004,554,45153,297,Africa
-Greece,15142,13457,1347,338,Europe
+Georgia,3695,2141,1534,20,Europe
+Germany,275560,23514,242656,9390,Europe
+Ghana,46062,507,45258,297,Africa
+Greece,15595,13904,1347,344,Europe
 Grenada,24,0,24,0,Americas
-Guatemala,85444,7466,74859,3119,Americas
-Guinea,10325,569,9692,64,Africa
+Guatemala,85681,7385,75172,3124,Americas
+Guinea,10344,522,9757,65,Africa
 Guinea-Bissau,2303,1137,1127,39,Africa
-Guyana,2269,866,1339,64,Americas
-Haiti,8619,2035,6363,221,Americas
+Guyana,2402,978,1359,65,Americas
+Haiti,8624,1921,6482,221,Americas
 Holy See,12,0,12,0,Europe
-Honduras,71616,47367,22065,2184,Americas
-Hungary,17990,12916,4391,683,Europe
-Iceland,2307,181,2116,10,Europe
-India,5400619,1010824,4303043,86752,South-East Asia
-Indonesia,244676,57796,177327,9553,South-East Asia
-Iran,422140,38269,359570,24301,Eastern Mediterranean
-Iraq,319035,56889,253591,8555,Eastern Mediterranean
-Ireland,32933,7777,23364,1792,Europe
-Israel,187902,52577,134069,1256,Europe
-Italy,298156,44098,218351,35707,Europe
-Ivory Coast,19320,740,18460,120,Africa
-Jamaica,4988,3571,1350,67,Americas
-Japan,79142,7030,70604,1508,Western Pacific
-Jordan,4779,1905,2844,30,Eastern Mediterranean
-Kazakhstan,107307,3695,101941,1671,Europe
-Kenya,36981,12446,23887,648,Africa
+Honduras,72075,47260,22611,2204,Americas
+Hungary,18866,13779,4401,686,Europe
+Iceland,2377,242,2125,10,Europe
+India,5487580,1003299,4396399,87882,South-East Asia
+Indonesia,248852,58378,180797,9677,South-East Asia
+Iran,425481,39480,361523,24478,Eastern Mediterranean
+Iraq,322856,56156,258075,8625,Eastern Mediterranean
+Ireland,33121,7965,23364,1792,Europe
+Israel,190929,52876,136780,1273,Europe
+Italy,299506,45079,218703,35724,Europe
+Ivory Coast,19327,577,18630,120,Africa
+Jamaica,5143,3666,1407,70,Americas
+Japan,79462,6974,70970,1518,Western Pacific
+Jordan,5045,1486,3527,32,Eastern Mediterranean
+Kazakhstan,107374,3639,102064,1671,Europe
+Kenya,37079,12480,23949,650,Africa
 Kosovo,12683,3407,8788,488,Europe
-Kuwait,99434,8682,90168,584,Eastern Mediterranean
-Kyrgyzstan,45335,2788,41484,1063,Europe
+Kuwait,99964,8449,90930,585,Eastern Mediterranean
+Kyrgyzstan,45471,2726,41682,1063,Europe
 Laos,23,1,22,0,Western Pacific
-Latvia,1525,241,1248,36,Europe
-Lebanon,29303,16959,12047,297,Eastern Mediterranean
+Latvia,1526,242,1248,36,Europe
+Lebanon,29987,17173,12507,307,Eastern Mediterranean
 Lesotho,1424,637,754,33,Africa
-Liberia,1335,37,1216,82,Africa
-Libya,27949,12437,15068,444,Eastern Mediterranean
-Liechtenstein,113,3,109,1,Europe
-Lithuania,3744,1459,2198,87,Europe
-Luxembourg,7718,891,6703,124,Europe
-Madagascar,16053,1184,14646,223,Africa
-Malawi,5731,1512,4040,179,Africa
-Malaysia,10219,734,9355,130,Western Pacific
-Maldives,9724,1430,8261,33,South-East Asia
-Mali,3013,513,2372,128,Africa
-Malta,2731,664,2047,20,Europe
-Mauritania,7368,256,6951,161,Africa
+Liberia,1336,36,1218,82,Africa
+Libya,28796,12962,15384,450,Eastern Mediterranean
+Liechtenstein,114,3,110,1,Europe
+Lithuania,3814,1528,2199,87,Europe
+Luxembourg,7916,953,6839,124,Europe
+Madagascar,16073,1166,14682,225,Africa
+Malawi,5733,1501,4053,179,Africa
+Malaysia,10276,751,9395,130,Western Pacific
+Maldives,9770,1346,8390,34,South-East Asia
+Mali,3024,519,2377,128,Africa
+Malta,2776,674,2079,23,Europe
+Mauritania,7384,246,6977,161,Africa
 Mauritius,366,18,338,10,Africa
-Mexico,697663,33711,590459,73493,Americas
-Moldova,46596,11157,34236,1203,Europe
-Monaco,193,39,153,1,Europe
-Mongolia,312,10,302,0,Western Pacific
-Montenegro,8612,3208,5268,136,Europe
-Morocco,101743,19181,80732,1830,Eastern Mediterranean
-Mozambique,6771,3106,3622,43,Africa
-Namibia,10377,2232,8033,112,Africa
-Nepal,64122,17478,46233,411,South-East Asia
-Netherlands,98217,89053,2840,6324,Europe
-New Zealand,1815,62,1728,25,Western Pacific
+Mexico,700580,30566,596317,73697,Americas
+Moldova,46796,10567,35018,1211,Europe
+Monaco,195,35,159,1,Europe
+Mongolia,313,11,302,0,Western Pacific
+Montenegro,8842,3279,5425,138,Europe
+Morocco,103119,17106,84158,1855,Eastern Mediterranean
+Mozambique,6912,3130,3738,44,Africa
+Namibia,10526,2301,8112,113,Africa
+Nepal,65276,17611,47238,427,South-East Asia
+Netherlands,100491,91171,2993,6327,Europe
+New Zealand,1815,61,1729,25,Western Pacific
 Nicaragua,4961,1901,2913,147,Americas
-Niger,1188,15,1104,69,Africa
-Nigeria,57242,7575,48569,1098,Africa
-North Macedonia,16735,2179,13863,693,Europe
-Norway,12897,2259,10371,267,Europe
-Oman,93475,7211,85418,846,Eastern Mediterranean
-Pakistan,306304,7015,292869,6420,Eastern Mediterranean
-Panama,106203,22581,81365,2257,Americas
+Niger,1189,16,1104,69,Africa
+Nigeria,57437,7663,48674,1100,Africa
+North Macedonia,16780,2131,13949,700,Europe
+Norway,13005,2367,10371,267,Europe
+Oman,94051,7417,85781,853,Eastern Mediterranean
+Pakistan,306886,7303,293159,6424,Eastern Mediterranean
+Panama,106810,22218,82320,2272,Americas
 Papua New Guinea,517,278,232,7,Western Pacific
-Paraguay,33520,14744,18117,659,Americas
-Peru,762865,123659,607837,31369,Americas
-Philippines,286743,51894,229865,4984,Western Pacific
-Poland,79240,12645,64302,2293,Europe
-Portugal,68577,21069,45596,1912,Europe
-Qatar,123376,2863,120303,210,Eastern Mediterranean
-Romania,112781,18575,89771,4435,Europe
-Russia,1098958,173178,906431,19349,Europe
-Rwanda,4711,1724,2961,26,Africa
-Saint Kitts and Nevis,17,0,17,0,Americas
+Paraguay,34260,14955,18629,676,Americas
+Peru,768895,129689,607837,31369,Americas
+Philippines,290190,54958,230233,4999,Western Pacific
+Poland,79988,13086,64604,2298,Europe
+Portugal,69200,21544,45736,1920,Europe
+Qatar,123604,2853,120540,211,Eastern Mediterranean
+Romania,113589,18482,90649,4458,Europe
+Russia,1105048,176602,909026,19420,Europe
+Rwanda,4722,1722,2973,27,Africa
+Saint Kitts and Nevis,19,2,17,0,Americas
 Saint Lucia,27,1,26,0,Americas
 Saint Vincent and the Grenadines,64,0,64,0,Americas
 San Marino,723,12,669,42,Europe
-Sao Tome and Principe,908,15,878,15,Africa
-Saudi Arabia,329754,14830,310439,4485,Eastern Mediterranean
-Senegal,14714,3152,11260,302,Africa
-Serbia,32908,32167,0,741,Europe
-Seychelles,141,5,136,0,Africa
+Sao Tome and Principe,908,13,880,15,Africa
+Saudi Arabia,330246,14235,311499,4512,Eastern Mediterranean
+Senegal,14738,2978,11458,302,Africa
+Serbia,32938,32195,0,743,Europe
+Seychelles,143,7,136,0,Africa
 Sierra Leone,2168,446,1650,72,Africa
-Singapore,57576,368,57181,27,Western Pacific
-Slovakia,6677,3090,3548,39,Europe
-Slovenia,4420,1255,3023,142,Europe
-Somalia,3442,467,2877,98,Eastern Mediterranean
-South Africa,661211,55187,590071,15953,Africa
-South Korea,23045,2412,20248,385,Western Pacific
-South Sudan,2642,1303,1290,49,Africa
-Spain,640040,459169,150376,30495,Europe
-Sri Lanka,3287,186,3088,13,South-East Asia
+Singapore,57606,338,57241,27,Western Pacific
+Slovakia,6756,3146,3571,39,Europe
+Slovenia,4470,1280,3048,142,Europe
+Somalia,3465,490,2877,98,Eastern Mediterranean
+South Africa,661936,54736,591208,15992,Africa
+South Korea,23106,2277,20441,388,Western Pacific
+South Sudan,2649,1310,1290,49,Africa
+Spain,671468,490429,150376,30663,Europe
+Sri Lanka,3299,186,3100,13,South-East Asia
 Sudan,13555,5959,6760,836,Eastern Mediterranean
-Suriname,4723,138,4488,97,Americas
+Suriname,4740,118,4525,97,Americas
 Sweden,88237,82372,0,5865,Europe
-Switzerland,49283,6738,40500,2045,Europe
-Syria,3800,2682,946,172,Eastern Mediterranean
-Taiwan,507,21,479,7,South-East Asia
-Tajikistan,9346,1165,8108,73,Europe
+Switzerland,50378,7828,40500,2050,Europe
+Syria,3833,2695,963,175,Eastern Mediterranean
+Taiwan,509,23,479,7,South-East Asia
+Tajikistan,9388,1163,8152,73,Europe
 Tanzania,509,305,183,21,Africa
-Thailand,3506,107,3340,59,South-East Asia
-Togo,1666,356,1269,41,Africa
-Trinidad and Tobago,3901,2083,1753,65,Americas
-Tunisia,10732,8187,2386,159,Eastern Mediterranean
-Turkey,302867,28128,267233,7506,Europe
-US,6804814,4014634,2590671,199509,Americas
-Uganda,6287,3608,2616,63,Africa
-Ukraine,180119,96055,80438,3626,Europe
-United Arab Emirates,84916,10239,74273,404,Eastern Mediterranean
-United Kingdom,396744,352650,2228,41866,Europe
-Uruguay,1917,250,1621,46,Americas
-Uzbekistan,51640,3275,47932,433,Europe
-Venezuela,66656,10013,56096,547,Americas
-Vietnam,1068,91,942,35,Western Pacific
-West Bank and Gaza,35686,11724,23700,262,Eastern Mediterranean
+Thailand,3511,109,3343,59,South-East Asia
+Togo,1669,354,1274,41,Africa
+Trinidad and Tobago,3945,2078,1802,65,Americas
+Tunisia,11260,8710,2386,164,Eastern Mediterranean
+Turkey,304610,28601,268435,7574,Europe
+US,6856884,4041070,2615949,199865,Americas
+Uganda,6468,3674,2731,63,Africa
+Ukraine,182900,98117,81131,3652,Europe
+United Arab Emirates,85595,10104,75086,405,Eastern Mediterranean
+United Kingdom,401122,357017,2228,41877,Europe
+Uruguay,1927,247,1634,46,Americas
+Uzbekistan,52070,3264,48369,437,Europe
+Venezuela,67443,10162,56726,555,Americas
+Vietnam,1068,86,947,35,Western Pacific
+West Bank and Gaza,36151,11458,24428,265,Eastern Mediterranean
 Western Sahara,10,1,8,1,Africa
-Yemen,2026,213,1227,586,Eastern Mediterranean
-Zambia,14131,436,13365,330,Africa
+Yemen,2028,207,1235,586,Eastern Mediterranean
+Zambia,14175,215,13629,331,Africa
 Zimbabwe,7683,1534,5924,225,Africa
