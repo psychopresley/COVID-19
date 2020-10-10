@@ -1,0 +1,69 @@
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Wed Oct  7 07:49:04 2020
+
+No existing files were updated
+2 new file(s) found. All files appended into the raw data file
+Creating world data file...
+World data report created succesfully!
+-----------
+list of diff on github repository:
+consolidated_data/country_report.json
+consolidated_data/province_report.csv
+consolidated_data/raw_data.csv
+commit to github repository
+----
+Commit process succesfull
+----
+Repo at None successfully loaded.
+Repo local path: C:\Users\user\Documents\GitHub\COVID-19
+Repo description: covid19 data analysis git project
+Repo active branch: master
+Remote named "origin" with URL "https://github.com/psychopresley/COVID-19.git"
+Remote named "upstream" with URL "https://github.com/CSSEGISandData/COVID-19.git"
+Last commit for repo: 0f0a320164acbfd3d75654c352b2bf97fd36741f.
+----
+commit: 0f0a320164acbfd3d75654c352b2bf97fd36741f
+"automated update 2020-10-07 07h49m" by psychopresley (psychopresley@gmail.com)
+2020-10-07 07:50:03-03:00
+count: 2213 and size: 260
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Wed Oct  7 07:51:40 2020
+
+No existing files were updated
+0 new files found. No further action necessary
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Wed Oct  7 07:59:02 2020
+
+0 existing file(s) updated since last pull
+generating new database...
+new database generated succesfully!
+Creating world data file...
+World data report created succesfully!
+-----------
+list of diff on github repository:
+consolidated_data/country_report.json
+consolidated_data/province_report.csv
+consolidated_data/raw_data.csv
+python/scripts/config.csv
+commit to github repository
+----
+Commit process succesfull
+----
+Repo at None successfully loaded.
+Repo local path: C:\Users\user\Documents\GitHub\COVID-19
+Repo description: covid19 data analysis git project
+Repo active branch: master
+Remote named "origin" with URL "https://github.com/psychopresley/COVID-19.git"
+Remote named "upstream" with URL "https://github.com/CSSEGISandData/COVID-19.git"
+Last commit for repo: f0f4c2814da81c41c1e2f8f35b67708b457bb5b3.
+----
+commit: f0f4c2814da81c41c1e2f8f35b67708b457bb5b3
+"automated update 2020-10-07 08h01m" by psychopresley (psychopresley@gmail.com)
+2020-10-07 08:01:29-03:00
+count: 2214 and size: 260

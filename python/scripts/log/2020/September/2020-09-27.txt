@@ -1,0 +1,62 @@
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Sun Sep 27 17:24:01 2020
+
+No existing files were updated
+1 new file(s) found. All files appended into the raw data file
+Creating world data file...
+World data report created succesfully!
+-----------
+list of diff on github repository:
+consolidated_data/country_report.json
+consolidated_data/province_report.csv
+consolidated_data/raw_data.csv
+commit to github repository
+----
+Commit process succesfull
+----
+Repo at None successfully loaded.
+Repo local path: C:\Users\user\Documents\GitHub\COVID-19
+Repo description: covid19 data analysis git project
+Repo active branch: master
+Remote named "origin" with URL "https://github.com/psychopresley/COVID-19.git"
+Remote named "upstream" with URL "https://github.com/CSSEGISandData/COVID-19.git"
+Last commit for repo: ddf681c24d8a21d0dcc2a3d4af262dec87b78b3f.
+----
+commit: ddf681c24d8a21d0dcc2a3d4af262dec87b78b3f
+"automated update 2020-09-27 17h24m" by psychopresley (psychopresley@gmail.com)
+2020-09-27 17:24:35-03:00
+count: 2099 and size: 260
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Sun Sep 27 17:29:07 2020
+
+0 existing file(s) updated since last pull
+generating new database...
+new database generated succesfully!
+Creating world data file...
+World data report created succesfully!
+-----------
+list of diff on github repository:
+consolidated_data/country_report.json
+consolidated_data/province_report.csv
+consolidated_data/raw_data.csv
+python/scripts/config.csv
+commit to github repository
+----
+Commit process succesfull
+----
+Repo at None successfully loaded.
+Repo local path: C:\Users\user\Documents\GitHub\COVID-19
+Repo description: covid19 data analysis git project
+Repo active branch: master
+Remote named "origin" with URL "https://github.com/psychopresley/COVID-19.git"
+Remote named "upstream" with URL "https://github.com/CSSEGISandData/COVID-19.git"
+Last commit for repo: 755aae2ace1be947a9b4f24378f2c38364c933f4.
+----
+commit: 755aae2ace1be947a9b4f24378f2c38364c933f4
+"automated update 2020-09-27 17h32m" by psychopresley (psychopresley@gmail.com)
+2020-09-27 17:32:12-03:00
+count: 2100 and size: 260

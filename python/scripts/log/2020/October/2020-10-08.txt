@@ -1,0 +1,37 @@
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Thu Oct  8 07:55:23 2020
+
+No existing files were updated
+1 new file(s) found. All files appended into the raw data file
+Creating world data file...
+World data report created succesfully!
+-----------
+list of diff on github repository:
+consolidated_data/country_report.json
+consolidated_data/province_report.csv
+consolidated_data/raw_data.csv
+commit to github repository
+----
+Commit process succesfull
+----
+Repo at None successfully loaded.
+Repo local path: C:\Users\user\Documents\GitHub\COVID-19
+Repo description: covid19 data analysis git project
+Repo active branch: master
+Remote named "origin" with URL "https://github.com/psychopresley/COVID-19.git"
+Remote named "upstream" with URL "https://github.com/CSSEGISandData/COVID-19.git"
+Last commit for repo: f9217dfa1dd72bac4d00b58ca09850a388c0fdf6.
+----
+commit: f9217dfa1dd72bac4d00b58ca09850a388c0fdf6
+"automated update 2020-10-08 07h55m" by psychopresley (psychopresley@gmail.com)
+2020-10-08 07:55:55-03:00
+count: 2224 and size: 260
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Thu Oct  8 11:16:21 2020
+
+No existing files were updated
+0 new files found. No further action necessary
