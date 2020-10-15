@@ -1,189 +1,189 @@
 Country/Region,Confirmed,percentage of active,active cases interval,percentage of recovered,recovered cases interval,percentage of deaths,deaths cases interval,WHO region
-Afghanistan,39928,12.87,few active cases,83.42,high recovered cases,3.71,very high deaths cases,Eastern Mediterranean
-Albania,15752,35.86,high active cases,61.42,few recovered cases,2.72,high deaths cases,Europe
-Algeria,53399,26.38,high active cases,70.21,few recovered cases,3.4,very high deaths cases,Africa
-Andorra,2995,33.72,high active cases,64.37,few recovered cases,1.9,high deaths cases,Europe
-Angola,6680,55.34,very high active cases,41.33,very few recovered cases,3.32,very high deaths cases,Africa
-Antigua and Barbuda,111,9.91,few active cases,87.39,high recovered cases,2.7,high deaths cases,Americas
-Argentina,917035,16.38,high active cases,80.94,few recovered cases,2.68,high deaths cases,Americas
-Armenia,57566,17.75,high active cases,80.46,few recovered cases,1.79,few deaths cases,Europe
-Australia,27337,5.07,few active cases,91.62,high recovered cases,3.31,very high deaths cases,Western Pacific
-Austria,57326,20.09,high active cases,78.41,few recovered cases,1.5,few deaths cases,Europe
-Azerbaijan,42381,5.43,few active cases,93.13,high recovered cases,1.44,few deaths cases,Europe
-Bahamas,5163,40.23,very high active cases,57.68,very few recovered cases,2.09,high deaths cases,Americas
-Bahrain,76272,5.01,few active cases,94.61,very high recovered cases,0.37,very few deaths cases,Eastern Mediterranean
-Bangladesh,381275,20.94,high active cases,77.6,few recovered cases,1.46,few deaths cases,South-East Asia
-Barbados,210,7.62,few active cases,89.05,high recovered cases,3.33,very high deaths cases,Americas
-Belarus,84524,6.89,few active cases,92.04,high recovered cases,1.07,few deaths cases,Europe
-Belgium,173240,82.28,very high active cases,11.81,very few recovered cases,5.91,very high deaths cases,Europe
-Belize,2585,37.37,very high active cases,61.12,few recovered cases,1.51,few deaths cases,Americas
-Benin,2411,16.47,high active cases,81.83,few recovered cases,1.7,few deaths cases,Africa
-Bhutan,313,6.39,few active cases,93.61,very high recovered cases,0.0,very few deaths cases,South-East Asia
-Bolivia,138922,20.51,high active cases,73.48,few recovered cases,6.01,very high deaths cases,Americas
-Bosnia and Herzegovina,31173,20.69,high active cases,76.27,few recovered cases,3.04,high deaths cases,Europe
+Afghanistan,39994,12.9,few active cases,83.4,high recovered cases,3.7,very high deaths cases,Eastern Mediterranean
+Albania,15955,36.1,high active cases,61.18,few recovered cases,2.72,high deaths cases,Europe
+Algeria,53584,26.41,high active cases,70.18,few recovered cases,3.41,very high deaths cases,Africa
+Andorra,3190,35.11,high active cases,63.04,few recovered cases,1.85,few deaths cases,Europe
+Angola,6846,55.77,very high active cases,40.91,very few recovered cases,3.32,very high deaths cases,Africa
+Antigua and Barbuda,112,8.04,few active cases,89.29,high recovered cases,2.68,high deaths cases,Americas
+Argentina,931967,16.73,high active cases,80.6,few recovered cases,2.67,high deaths cases,Americas
+Armenia,58624,18.55,high active cases,79.68,few recovered cases,1.77,few deaths cases,Europe
+Australia,27357,5.14,few active cases,91.56,high recovered cases,3.3,very high deaths cases,Western Pacific
+Austria,58672,20.37,high active cases,78.14,few recovered cases,1.49,few deaths cases,Europe
+Azerbaijan,42750,6.0,few active cases,92.56,high recovered cases,1.44,few deaths cases,Europe
+Bahamas,5191,38.61,very high active cases,59.29,very few recovered cases,2.1,high deaths cases,Americas
+Bahrain,76621,4.92,few active cases,94.7,very high recovered cases,0.37,very few deaths cases,Eastern Mediterranean
+Bangladesh,382959,20.87,high active cases,77.67,few recovered cases,1.46,few deaths cases,South-East Asia
+Barbados,215,7.44,few active cases,89.3,high recovered cases,3.26,very high deaths cases,Americas
+Belarus,85121,7.04,few active cases,91.89,high recovered cases,1.07,few deaths cases,Europe
+Belgium,181511,83.0,very high active cases,11.34,very few recovered cases,5.66,very high deaths cases,Europe
+Belize,2619,37.53,high active cases,60.94,few recovered cases,1.53,few deaths cases,Americas
+Benin,2478,4.32,very few active cases,94.03,very high recovered cases,1.65,few deaths cases,Africa
+Bhutan,316,6.96,few active cases,93.04,high recovered cases,0.0,very few deaths cases,South-East Asia
+Bolivia,139141,20.21,high active cases,73.77,few recovered cases,6.02,very high deaths cases,Americas
+Bosnia and Herzegovina,31655,20.92,high active cases,76.05,few recovered cases,3.03,high deaths cases,Europe
 Botswana,3515,75.16,very high active cases,24.27,very few recovered cases,0.57,very few deaths cases,Africa
-Brazil,5113628,8.53,few active cases,88.52,high recovered cases,2.95,high deaths cases,Americas
-Brunei,146,0.0,very few active cases,97.95,very high recovered cases,2.05,high deaths cases,Western Pacific
-Bulgaria,25774,33.8,high active cases,62.62,few recovered cases,3.58,very high deaths cases,Europe
+Brazil,5140863,9.0,few active cases,88.05,high recovered cases,2.95,high deaths cases,Americas
+Brunei,147,0.68,very few active cases,97.28,very high recovered cases,2.04,high deaths cases,Western Pacific
+Bulgaria,26593,34.5,high active cases,62.01,few recovered cases,3.49,very high deaths cases,Europe
 Burkina Faso,2305,28.68,high active cases,68.59,few recovered cases,2.73,high deaths cases,Africa
-Burma,30437,59.06,very high active cases,38.67,very few recovered cases,2.28,high deaths cases,South-East Asia
-Burundi,529,10.59,few active cases,89.22,high recovered cases,0.19,very few deaths cases,Africa
+Burma,31325,53.4,very high active cases,44.26,very few recovered cases,2.34,high deaths cases,South-East Asia
+Burundi,529,5.86,few active cases,93.95,very high recovered cases,0.19,very few deaths cases,Africa
 Cambodia,283,1.77,very few active cases,98.23,very high recovered cases,0.0,very few deaths cases,Western Pacific
-Cameroon,21203,3.13,very few active cases,94.88,very high recovered cases,2.0,high deaths cases,Africa
-Canada,189489,10.32,few active cases,84.56,high recovered cases,5.12,very high deaths cases,Americas
-Cape Verde,7254,13.33,few active cases,85.61,high recovered cases,1.06,few deaths cases,Africa
-Central African Republic,4854,59.09,very high active cases,39.64,very few recovered cases,1.28,few deaths cases,Africa
-Chad,1321,8.25,few active cases,84.78,high recovered cases,6.96,very high deaths cases,Africa
-Chile,484280,2.97,very few active cases,94.26,very high recovered cases,2.77,high deaths cases,Americas
-China,90858,0.45,very few active cases,94.33,very high recovered cases,5.22,very high deaths cases,Western Pacific
-Colombia,924098,9.66,few active cases,87.3,high recovered cases,3.05,high deaths cases,Americas
+Cameroon,21441,4.2,very few active cases,93.82,very high recovered cases,1.97,high deaths cases,Africa
+Canada,192064,10.56,few active cases,84.38,high recovered cases,5.06,very high deaths cases,Americas
+Cape Verde,7371,13.87,few active cases,85.06,high recovered cases,1.07,few deaths cases,Africa
+Central African Republic,4855,59.09,very high active cases,39.63,very few recovered cases,1.28,few deaths cases,Africa
+Chad,1329,8.8,few active cases,84.27,high recovered cases,6.92,very high deaths cases,Africa
+Chile,485372,2.86,very few active cases,94.38,very high recovered cases,2.76,high deaths cases,Americas
+China,90869,0.45,very few active cases,94.33,very high recovered cases,5.22,very high deaths cases,Western Pacific
+Colombia,930159,9.16,few active cases,87.8,high recovered cases,3.04,high deaths cases,Americas
 Comoros,496,1.01,very few active cases,97.58,very high recovered cases,1.41,few deaths cases,Africa
-Congo-Brazzaville,5118,22.29,high active cases,75.95,few recovered cases,1.76,few deaths cases,Africa
-Costa Rica,90238,39.28,very high active cases,59.48,very few recovered cases,1.25,few deaths cases,Americas
-Croatia,20993,13.21,few active cases,85.21,high recovered cases,1.57,few deaths cases,Europe
+Congo-Brazzaville,5156,22.83,high active cases,75.39,few recovered cases,1.78,few deaths cases,Africa
+Costa Rica,91780,39.76,very high active cases,59.01,very few recovered cases,1.24,few deaths cases,Americas
+Croatia,21741,14.76,high active cases,83.7,high recovered cases,1.54,few deaths cases,Europe
 Cruise Ship,721,6.52,few active cases,91.4,high recovered cases,2.08,high deaths cases,Other
-Cuba,6017,4.85,few active cases,93.1,high recovered cases,2.04,high deaths cases,Americas
-Cyprus,2130,31.03,high active cases,67.79,few recovered cases,1.17,few deaths cases,Europe
-Czech Republic,129747,52.98,very high active cases,46.17,very few recovered cases,0.85,few deaths cases,Europe
-Democratic Republic of Congo,10872,3.19,very few active cases,94.27,very high recovered cases,2.54,high deaths cases,Africa
-Denmark,33594,15.53,high active cases,82.47,few recovered cases,2.01,high deaths cases,Europe
-Djibouti,5428,0.09,very few active cases,98.78,very high recovered cases,1.12,few deaths cases,Eastern Mediterranean
+Cuba,6035,4.29,very few active cases,93.67,very high recovered cases,2.04,high deaths cases,Americas
+Cyprus,2181,32.65,high active cases,66.21,few recovered cases,1.15,few deaths cases,Europe
+Czech Republic,139290,55.44,very high active cases,43.72,very few recovered cases,0.84,few deaths cases,Europe
+Democratic Republic of Congo,10935,3.18,very few active cases,94.25,very high recovered cases,2.57,high deaths cases,Africa
+Denmark,34087,15.4,high active cases,82.62,few recovered cases,1.98,high deaths cases,Europe
+Djibouti,5440,0.24,very few active cases,98.64,very high recovered cases,1.12,few deaths cases,Eastern Mediterranean
 Dominica,32,25.0,high active cases,75.0,few recovered cases,0.0,very few deaths cases,Americas
-Dominican Republic,119008,18.39,high active cases,79.78,few recovered cases,1.83,few deaths cases,Americas
+Dominican Republic,119662,18.4,high active cases,79.77,few recovered cases,1.83,few deaths cases,Americas
 East Timor,29,3.45,very few active cases,96.55,very high recovered cases,0.0,very few deaths cases,South-East Asia
-Ecuador,148171,5.27,few active cases,86.48,high recovered cases,8.26,very high deaths cases,Americas
-Egypt,104787,0.84,very few active cases,93.37,high recovered cases,5.79,very high deaths cases,Eastern Mediterranean
-El Salvador,30480,12.22,few active cases,84.83,high recovered cases,2.95,high deaths cases,Americas
-Equatorial Guinea,5066,0.57,very few active cases,97.79,very high recovered cases,1.64,few deaths cases,Africa
+Ecuador,149083,5.83,few active cases,85.95,high recovered cases,8.23,very high deaths cases,Americas
+Egypt,104915,0.87,very few active cases,93.33,high recovered cases,5.79,very high deaths cases,Eastern Mediterranean
+El Salvador,30766,12.27,few active cases,84.79,high recovered cases,2.94,high deaths cases,Americas
+Equatorial Guinea,5068,0.61,very few active cases,97.75,very high recovered cases,1.64,few deaths cases,Africa
 Eritrea,414,10.14,few active cases,89.86,high recovered cases,0.0,very few deaths cases,Africa
-Estonia,3908,21.11,high active cases,77.15,few recovered cases,1.74,few deaths cases,Europe
-Eswatini,5696,4.3,very few active cases,93.7,very high recovered cases,2.0,high deaths cases,Africa
-Ethiopia,85718,52.62,very high active cases,45.86,very few recovered cases,1.52,few deaths cases,Africa
+Estonia,3947,20.75,high active cases,77.53,few recovered cases,1.72,few deaths cases,Europe
+Eswatini,5715,4.44,few active cases,93.56,high recovered cases,1.99,high deaths cases,Africa
+Ethiopia,86430,52.01,very high active cases,46.47,very few recovered cases,1.52,few deaths cases,Africa
 Fiji,32,0.0,very few active cases,93.75,very high recovered cases,6.25,very high deaths cases,Western Pacific
-Finland,12499,29.23,high active cases,68.01,few recovered cases,2.77,high deaths cases,Europe
-France,798257,82.69,very high active cases,13.18,very few recovered cases,4.13,very high deaths cases,Europe
-Gabon,8860,5.73,few active cases,93.66,very high recovered cases,0.61,very few deaths cases,Africa
-Gambia,3636,25.44,high active cases,71.31,few recovered cases,3.25,high deaths cases,Africa
-Georgia,12841,45.73,very high active cases,53.48,very few recovered cases,0.79,very few deaths cases,Europe
-Germany,337314,13.96,few active cases,83.17,high recovered cases,2.87,high deaths cases,Europe
+Finland,12703,25.61,high active cases,71.64,few recovered cases,2.76,high deaths cases,Europe
+France,820376,83.0,very high active cases,12.97,very few recovered cases,4.03,very high deaths cases,Europe
+Gabon,8869,4.74,few active cases,94.66,very high recovered cases,0.61,very few deaths cases,Africa
+Gambia,3642,25.51,high active cases,71.25,few recovered cases,3.24,high deaths cases,Africa
+Georgia,13521,46.25,very high active cases,52.95,very few recovered cases,0.81,very few deaths cases,Europe
+Germany,344487,14.84,high active cases,82.34,few recovered cases,2.82,high deaths cases,Europe
 Ghana,47126,0.74,very few active cases,98.61,very high recovered cases,0.66,very few deaths cases,Africa
-Greece,23060,92.16,very high active cases,5.84,very few recovered cases,2.0,high deaths cases,Europe
+Greece,23495,92.27,very high active cases,5.73,very few recovered cases,2.0,high deaths cases,Europe
 Grenada,25,4.0,very few active cases,96.0,very high recovered cases,0.0,very few deaths cases,Americas
-Guatemala,98380,7.34,few active cases,89.19,high recovered cases,3.47,very high deaths cases,Americas
-Guinea,11134,6.44,few active cases,92.93,high recovered cases,0.63,very few deaths cases,Africa
+Guatemala,99094,7.31,few active cases,89.22,high recovered cases,3.46,very high deaths cases,Americas
+Guinea,11188,6.85,few active cases,92.53,high recovered cases,0.63,very few deaths cases,Africa
 Guinea-Bissau,2389,23.69,high active cases,74.59,few recovered cases,1.72,few deaths cases,Africa
-Guyana,3565,28.72,high active cases,68.3,few recovered cases,2.97,high deaths cases,Americas
-Haiti,8887,17.07,high active cases,80.34,few recovered cases,2.59,high deaths cases,Americas
+Guyana,3589,27.75,high active cases,69.3,few recovered cases,2.95,high deaths cases,Americas
+Haiti,8908,16.78,high active cases,80.62,few recovered cases,2.59,high deaths cases,Americas
 Holy See,19,36.84,high active cases,63.16,few recovered cases,0.0,very few deaths cases,Europe
-Honduras,84852,58.4,very high active cases,38.62,very few recovered cases,2.98,high deaths cases,Americas
-Hungary,39862,68.02,very high active cases,29.48,very few recovered cases,2.5,high deaths cases,Europe
-Iceland,3668,29.2,high active cases,70.53,few recovered cases,0.27,very few deaths cases,Europe
-India,7239389,11.42,few active cases,87.05,high recovered cases,1.53,few deaths cases,South-East Asia
-Indonesia,340622,19.17,high active cases,77.3,few recovered cases,3.53,very high deaths cases,South-East Asia
-Iran,508389,13.27,few active cases,81.01,few recovered cases,5.72,very high deaths cases,Eastern Mediterranean
-Iraq,409358,13.48,few active cases,84.08,high recovered cases,2.44,high deaths cases,Eastern Mediterranean
-Ireland,44159,42.95,very high active cases,52.91,very few recovered cases,4.14,very high deaths cases,Europe
-Israel,296652,16.45,high active cases,82.86,high recovered cases,0.69,very few deaths cases,Europe
-Italy,365467,23.86,high active cases,66.22,few recovered cases,9.92,very high deaths cases,Europe
-Ivory Coast,20183,1.01,very few active cases,98.4,very high recovered cases,0.59,very few deaths cases,Africa
-Jamaica,7910,56.4,very high active cases,41.76,very few recovered cases,1.85,few deaths cases,Americas
-Japan,90153,7.16,few active cases,91.03,high recovered cases,1.81,few deaths cases,Western Pacific
-Jordan,28127,76.58,very high active cases,22.62,very few recovered cases,0.8,very few deaths cases,Eastern Mediterranean
-Kazakhstan,108984,2.63,very few active cases,95.74,very high recovered cases,1.62,few deaths cases,Europe
-Kenya,41937,23.39,high active cases,74.73,few recovered cases,1.88,few deaths cases,Africa
-Kosovo,16345,7.9,few active cases,88.13,high recovered cases,3.97,very high deaths cases,Europe
-Kuwait,112737,6.7,few active cases,92.7,high recovered cases,0.6,very few deaths cases,Eastern Mediterranean
-Kyrgyzstan,49871,8.16,few active cases,89.66,high recovered cases,2.19,high deaths cases,Europe
+Honduras,85458,58.43,very high active cases,38.6,very few recovered cases,2.96,high deaths cases,Americas
+Hungary,40782,67.66,very high active cases,29.83,very few recovered cases,2.51,high deaths cases,Europe
+Iceland,3757,30.13,high active cases,69.6,few recovered cases,0.27,very few deaths cases,Europe
+India,7307097,11.12,few active cases,87.36,high recovered cases,1.52,few deaths cases,South-East Asia
+Indonesia,344749,18.78,high active cases,77.69,few recovered cases,3.53,very high deaths cases,South-East Asia
+Iran,513219,13.45,few active cases,80.83,few recovered cases,5.72,very high deaths cases,Eastern Mediterranean
+Iraq,413215,13.5,few active cases,84.07,high recovered cases,2.43,high deaths cases,Eastern Mediterranean
+Ireland,45243,44.3,very high active cases,51.64,very few recovered cases,4.06,very high deaths cases,Europe
+Israel,298500,14.97,high active cases,84.33,high recovered cases,0.7,very few deaths cases,Europe
+Italy,372799,24.8,high active cases,65.47,few recovered cases,9.73,very high deaths cases,Europe
+Ivory Coast,20217,1.11,very few active cases,98.29,very high recovered cases,0.59,very few deaths cases,Africa
+Jamaica,7989,55.16,very high active cases,42.95,very few recovered cases,1.89,high deaths cases,Americas
+Japan,90694,7.14,few active cases,91.05,high recovered cases,1.81,few deaths cases,Western Pacific
+Jordan,30550,77.99,very high active cases,21.17,very few recovered cases,0.84,few deaths cases,Eastern Mediterranean
+Kazakhstan,109094,2.57,very few active cases,95.81,very high recovered cases,1.62,few deaths cases,Europe
+Kenya,42541,24.25,high active cases,73.88,few recovered cases,1.87,few deaths cases,Africa
+Kosovo,16425,8.04,few active cases,88.01,high recovered cases,3.96,very high deaths cases,Europe
+Kuwait,113269,6.5,few active cases,92.91,high recovered cases,0.6,very few deaths cases,Eastern Mediterranean
+Kyrgyzstan,50201,8.41,few active cases,89.41,high recovered cases,2.18,high deaths cases,Europe
 Laos,23,4.35,few active cases,95.65,very high recovered cases,0.0,very few deaths cases,Western Pacific
-Latvia,2840,51.9,very high active cases,46.65,very few recovered cases,1.44,few deaths cases,Europe
-Lebanon,55869,55.15,very high active cases,44.0,very few recovered cases,0.86,few deaths cases,Eastern Mediterranean
-Lesotho,1822,44.95,very high active cases,52.74,very few recovered cases,2.31,high deaths cases,Africa
-Liberia,1371,2.77,very few active cases,91.25,high recovered cases,5.98,very high deaths cases,Africa
-Libya,44985,42.95,very high active cases,55.59,very few recovered cases,1.46,few deaths cases,Eastern Mediterranean
-Liechtenstein,163,20.86,high active cases,78.53,few recovered cases,0.61,very few deaths cases,Europe
-Lithuania,6366,53.69,very high active cases,44.64,very few recovered cases,1.67,few deaths cases,Europe
+Latvia,2942,53.57,very high active cases,45.04,very few recovered cases,1.39,few deaths cases,Europe
+Lebanon,57246,55.17,very high active cases,43.96,very few recovered cases,0.87,few deaths cases,Eastern Mediterranean
+Lesotho,1833,45.28,very high active cases,52.43,very few recovered cases,2.29,high deaths cases,Africa
+Liberia,1372,2.62,very few active cases,91.4,high recovered cases,5.98,very high deaths cases,Africa
+Libya,45821,43.32,very high active cases,55.22,very few recovered cases,1.46,few deaths cases,Eastern Mediterranean
+Liechtenstein,174,24.14,high active cases,75.29,few recovered cases,0.57,very few deaths cases,Europe
+Lithuania,6505,53.7,very high active cases,44.63,very few recovered cases,1.68,few deaths cases,Europe
 Luxembourg,9119,11.96,few active cases,86.63,high recovered cases,1.4,few deaths cases,Europe
 Madagascar,16754,2.35,very few active cases,96.24,very high recovered cases,1.41,few deaths cases,Africa
-Malawi,5827,16.44,high active cases,80.45,few recovered cases,3.11,high deaths cases,Africa
-Malaysia,16880,31.66,high active cases,67.37,few recovered cases,0.97,few deaths cases,Western Pacific
-Maldives,10993,10.23,few active cases,89.45,high recovered cases,0.32,very few deaths cases,South-East Asia
-Mali,3297,18.84,high active cases,77.16,few recovered cases,4.0,very high deaths cases,Africa
-Malta,3937,22.38,high active cases,76.5,few recovered cases,1.12,few deaths cases,Europe
-Mauritania,7565,1.34,very few active cases,96.51,very high recovered cases,2.15,high deaths cases,Africa
+Malawi,5829,15.87,high active cases,81.03,few recovered cases,3.11,high deaths cases,Africa
+Malaysia,17540,32.88,high active cases,66.16,few recovered cases,0.95,few deaths cases,Western Pacific
+Maldives,11062,10.37,few active cases,89.31,high recovered cases,0.32,very few deaths cases,South-East Asia
+Mali,3352,19.99,high active cases,76.07,few recovered cases,3.94,very high deaths cases,Africa
+Malta,4048,23.22,high active cases,75.69,few recovered cases,1.09,few deaths cases,Europe
+Mauritania,7572,1.25,very few active cases,96.59,very high recovered cases,2.15,high deaths cases,Africa
 Mauritius,407,8.85,few active cases,88.7,high recovered cases,2.46,high deaths cases,Africa
-Mexico,825340,4.54,few active cases,85.23,high recovered cases,10.23,very high deaths cases,Americas
-Moldova,63275,26.36,high active cases,71.28,few recovered cases,2.36,high deaths cases,Europe
-Monaco,241,9.13,few active cases,90.04,high recovered cases,0.83,few deaths cases,Europe
+Mexico,829396,4.94,few active cases,84.82,high recovered cases,10.24,very high deaths cases,Americas
+Moldova,64424,26.95,high active cases,70.7,few recovered cases,2.35,high deaths cases,Europe
+Monaco,248,11.69,few active cases,87.5,high recovered cases,0.81,very few deaths cases,Europe
 Mongolia,320,2.81,very few active cases,97.19,very high recovered cases,0.0,very few deaths cases,Western Pacific
-Montenegro,14268,27.98,high active cases,70.53,few recovered cases,1.49,few deaths cases,Europe
-Morocco,156946,14.53,few active cases,83.76,high recovered cases,1.71,few deaths cases,Eastern Mediterranean
-Mozambique,10258,22.47,high active cases,76.82,few recovered cases,0.71,very few deaths cases,Africa
-Namibia,12000,14.59,high active cases,84.33,high recovered cases,1.08,few deaths cases,Africa
-Nepal,115358,31.13,high active cases,68.29,few recovered cases,0.57,very few deaths cases,South-East Asia
-Netherlands,194591,94.04,very high active cases,2.53,very few recovered cases,3.44,very high deaths cases,Europe
-New Zealand,1874,2.13,very few active cases,96.53,very high recovered cases,1.33,few deaths cases,Western Pacific
+Montenegro,14461,27.96,high active cases,70.54,few recovered cases,1.5,few deaths cases,Europe
+Morocco,160333,14.75,few active cases,83.55,high recovered cases,1.7,few deaths cases,Eastern Mediterranean
+Mozambique,10392,21.98,high active cases,77.32,few recovered cases,0.7,very few deaths cases,Africa
+Namibia,12069,14.86,high active cases,84.06,high recovered cases,1.08,few deaths cases,Africa
+Nepal,117996,30.82,high active cases,68.61,few recovered cases,0.57,very few deaths cases,South-East Asia
+Netherlands,201942,94.19,very high active cases,2.48,very few recovered cases,3.33,very high deaths cases,Europe
+New Zealand,1876,2.24,very few active cases,96.43,very high recovered cases,1.33,few deaths cases,Western Pacific
 Nicaragua,5353,18.2,high active cases,78.93,few recovered cases,2.88,high deaths cases,Americas
-Niger,1203,0.83,very few active cases,93.43,high recovered cases,5.74,very high deaths cases,Africa
-Nigeria,60655,12.42,few active cases,85.74,high recovered cases,1.84,few deaths cases,Africa
-North Macedonia,21193,18.86,high active cases,77.37,few recovered cases,3.77,very high deaths cases,Europe
-Norway,15793,23.13,high active cases,75.12,few recovered cases,1.75,few deaths cases,Europe
-Oman,107213,11.76,few active cases,87.26,high recovered cases,0.98,few deaths cases,Eastern Mediterranean
-Pakistan,320463,2.74,very few active cases,95.2,very high recovered cases,2.06,high deaths cases,Eastern Mediterranean
-Panama,121296,17.72,high active cases,80.21,few recovered cases,2.07,high deaths cases,Americas
-Papua New Guinea,565,3.72,very few active cases,95.04,very high recovered cases,1.24,few deaths cases,Western Pacific
-Paraguay,51197,32.74,high active cases,65.09,few recovered cases,2.16,high deaths cases,Americas
-Peru,853974,8.48,few active cases,87.6,high recovered cases,3.91,very high deaths cases,Americas
-Philippines,344713,13.04,few active cases,85.11,high recovered cases,1.85,few deaths cases,Western Pacific
-Poland,135278,37.09,high active cases,60.62,very few recovered cases,2.29,high deaths cases,Europe
-Portugal,89121,36.99,high active cases,60.64,few recovered cases,2.37,high deaths cases,Europe
-Qatar,128405,2.19,very few active cases,97.64,very high recovered cases,0.17,very few deaths cases,Eastern Mediterranean
-Romania,160461,21.45,high active cases,75.11,few recovered cases,3.45,very high deaths cases,Europe
-Russia,1318783,20.37,high active cases,77.9,few recovered cases,1.73,few deaths cases,Europe
-Rwanda,4908,15.2,high active cases,84.15,high recovered cases,0.65,very few deaths cases,Africa
+Niger,1205,1.0,very few active cases,93.28,high recovered cases,5.73,very high deaths cases,Africa
+Nigeria,60834,12.45,few active cases,85.71,high recovered cases,1.83,few deaths cases,Africa
+North Macedonia,21636,19.58,high active cases,76.68,few recovered cases,3.74,very high deaths cases,Europe
+Norway,15953,23.9,high active cases,74.36,few recovered cases,1.74,few deaths cases,Europe
+Oman,107776,11.88,few active cases,87.13,high recovered cases,0.98,few deaths cases,Eastern Mediterranean
+Pakistan,321218,2.87,very few active cases,95.07,very high recovered cases,2.06,high deaths cases,Eastern Mediterranean
+Panama,122128,17.76,high active cases,80.18,few recovered cases,2.06,high deaths cases,Americas
+Papua New Guinea,578,5.88,few active cases,92.91,high recovered cases,1.21,few deaths cases,Western Pacific
+Paraguay,51845,32.39,high active cases,65.43,few recovered cases,2.18,high deaths cases,Americas
+Peru,853974,7.8,few active cases,88.29,high recovered cases,3.91,very high deaths cases,Americas
+Philippines,346536,13.34,few active cases,84.8,high recovered cases,1.86,few deaths cases,Western Pacific
+Poland,141804,38.6,very high active cases,59.13,very few recovered cases,2.27,high deaths cases,Europe
+Portugal,91193,37.92,high active cases,59.76,few recovered cases,2.32,high deaths cases,Europe
+Qatar,128603,2.18,very few active cases,97.65,very high recovered cases,0.17,very few deaths cases,Eastern Mediterranean
+Romania,164477,21.99,high active cases,74.61,few recovered cases,3.41,very high deaths cases,Europe
+Russia,1332824,20.6,high active cases,77.67,few recovered cases,1.73,few deaths cases,Europe
+Rwanda,4940,10.3,few active cases,89.03,high recovered cases,0.67,very few deaths cases,Africa
 Saint Kitts and Nevis,19,0.0,very few active cases,100.0,very high recovered cases,0.0,very few deaths cases,Americas
-Saint Lucia,29,6.9,few active cases,93.1,high recovered cases,0.0,very few deaths cases,Americas
+Saint Lucia,31,12.9,few active cases,87.1,high recovered cases,0.0,very few deaths cases,Americas
 Saint Vincent and the Grenadines,64,0.0,very few active cases,100.0,very high recovered cases,0.0,very few deaths cases,Americas
 San Marino,741,2.29,very few active cases,92.04,high recovered cases,5.67,very high deaths cases,Europe
-Sao Tome and Principe,929,2.05,very few active cases,96.34,very high recovered cases,1.61,few deaths cases,Africa
-Saudi Arabia,340089,2.55,very few active cases,95.96,very high recovered cases,1.5,few deaths cases,Eastern Mediterranean
-Senegal,15307,9.69,few active cases,88.25,high recovered cases,2.06,high deaths cases,Africa
-Serbia,35006,97.81,very high active cases,0.0,very few recovered cases,2.19,high deaths cases,Europe
+Sao Tome and Principe,929,1.94,very few active cases,96.45,very high recovered cases,1.61,few deaths cases,Africa
+Saudi Arabia,340590,2.54,very few active cases,95.96,very high recovered cases,1.5,few deaths cases,Eastern Mediterranean
+Senegal,15331,9.42,few active cases,88.52,high recovered cases,2.06,high deaths cases,Africa
+Serbia,35251,97.82,very high active cases,0.0,very few recovered cases,2.18,high deaths cases,Europe
 Seychelles,148,2.7,very few active cases,97.3,very high recovered cases,0.0,very few deaths cases,Africa
-Sierra Leone,2309,21.61,high active cases,75.27,few recovered cases,3.12,high deaths cases,Africa
-Singapore,57884,0.2,very few active cases,99.75,very high recovered cases,0.05,very few deaths cases,Western Pacific
-Slovakia,20886,69.12,very high active cases,30.59,very few recovered cases,0.29,very few deaths cases,Europe
-Slovenia,9231,40.56,very high active cases,57.57,very few recovered cases,1.87,few deaths cases,Europe
+Sierra Leone,2315,21.56,high active cases,75.29,few recovered cases,3.15,high deaths cases,Africa
+Singapore,57889,0.19,very few active cases,99.76,very high recovered cases,0.05,very few deaths cases,Western Pacific
+Slovakia,22296,69.61,very high active cases,30.09,very few recovered cases,0.3,very few deaths cases,Europe
+Slovenia,9938,42.75,very high active cases,55.49,very few recovered cases,1.76,few deaths cases,Europe
 Solomon Islands,2,100.0,very high active cases,0.0,very few recovered cases,0.0,very few deaths cases,Solomon Islands
 Somalia,3864,17.49,high active cases,79.94,few recovered cases,2.56,high deaths cases,Eastern Mediterranean
-South Africa,694537,7.33,few active cases,90.07,high recovered cases,2.6,high deaths cases,Africa
-South Korea,24889,5.71,few active cases,92.53,high recovered cases,1.76,few deaths cases,Western Pacific
+South Africa,696414,7.38,few active cases,90.02,high recovered cases,2.61,high deaths cases,Africa
+South Korea,24988,5.87,few active cases,92.37,high recovered cases,1.76,few deaths cases,Western Pacific
 South Sudan,2798,51.93,very high active cases,46.1,very few recovered cases,1.97,high deaths cases,Africa
-Spain,896086,79.51,very high active cases,16.78,very few recovered cases,3.71,very high deaths cases,Europe
-Sri Lanka,5038,33.68,high active cases,66.06,few recovered cases,0.26,very few deaths cases,South-East Asia
+Spain,908056,79.76,very high active cases,16.56,very few recovered cases,3.68,very high deaths cases,Europe
+Sri Lanka,5170,34.82,high active cases,64.93,few recovered cases,0.25,very few deaths cases,South-East Asia
 Sudan,13691,44.49,very high active cases,49.4,very few recovered cases,6.11,very high deaths cases,Eastern Mediterranean
-Suriname,5072,1.87,very few active cases,96.02,very high recovered cases,2.11,high deaths cases,Americas
-Sweden,100654,94.14,very high active cases,0.0,very few recovered cases,5.86,very high deaths cases,Europe
-Switzerland,65881,21.22,high active cases,75.59,few recovered cases,3.19,high deaths cases,Europe
-Syria,4826,66.95,very high active cases,28.26,very few recovered cases,4.79,very high deaths cases,Eastern Mediterranean
-Taiwan,530,6.42,few active cases,92.26,high recovered cases,1.32,few deaths cases,South-East Asia
-Tajikistan,10297,10.11,few active cases,89.12,high recovered cases,0.77,very few deaths cases,Europe
+Suriname,5083,1.75,very few active cases,96.12,very high recovered cases,2.12,high deaths cases,Americas
+Sweden,101332,94.17,very high active cases,0.0,very few recovered cases,5.83,very high deaths cases,Europe
+Switzerland,68704,24.45,high active cases,72.48,few recovered cases,3.07,high deaths cases,Europe
+Syria,4883,66.76,very high active cases,28.45,very few recovered cases,4.79,very high deaths cases,Eastern Mediterranean
+Taiwan,530,6.04,few active cases,92.64,high recovered cases,1.32,few deaths cases,South-East Asia
+Tajikistan,10336,9.79,few active cases,89.44,high recovered cases,0.76,very few deaths cases,Europe
 Tanzania,509,59.92,very high active cases,35.95,very few recovered cases,4.13,very high deaths cases,Africa
 Thailand,3652,3.72,very few active cases,94.66,very high recovered cases,1.62,few deaths cases,South-East Asia
-Togo,1972,23.17,high active cases,74.29,few recovered cases,2.54,high deaths cases,Africa
-Trinidad and Tobago,5127,32.51,high active cases,65.67,few recovered cases,1.81,few deaths cases,Americas
-Tunisia,32556,83.08,very high active cases,15.46,very few recovered cases,1.47,few deaths cases,Eastern Mediterranean
-Turkey,338779,9.7,few active cases,87.66,high recovered cases,2.64,high deaths cases,Europe
-US,7856605,57.48,very high active cases,39.77,very few recovered cases,2.75,high deaths cases,Americas
-Uganda,9945,35.22,high active cases,63.82,few recovered cases,0.96,few deaths cases,Africa
-Ukraine,277982,54.58,very high active cases,43.53,very few recovered cases,1.89,high deaths cases,Europe
-United Arab Emirates,108608,7.51,few active cases,92.08,high recovered cases,0.41,very few deaths cases,Eastern Mediterranean
-United Kingdom,637708,92.84,very high active cases,0.4,very few recovered cases,6.76,very high deaths cases,Europe
-Uruguay,2337,12.79,few active cases,85.02,high recovered cases,2.18,high deaths cases,Americas
-Uzbekistan,61642,4.08,very few active cases,95.09,very high recovered cases,0.83,few deaths cases,Europe
-Venezuela,84391,8.79,few active cases,90.37,high recovered cases,0.84,few deaths cases,Americas
-Vietnam,1113,4.76,few active cases,92.09,high recovered cases,3.14,high deaths cases,Western Pacific
-West Bank and Gaza,45200,13.2,few active cases,85.93,high recovered cases,0.87,few deaths cases,Eastern Mediterranean
+Togo,1983,23.15,high active cases,74.28,few recovered cases,2.57,high deaths cases,Africa
+Trinidad and Tobago,5154,31.22,high active cases,66.98,few recovered cases,1.8,few deaths cases,Americas
+Tunisia,34790,84.06,very high active cases,14.46,very few recovered cases,1.47,few deaths cases,Eastern Mediterranean
+Turkey,340450,9.71,few active cases,87.64,high recovered cases,2.65,high deaths cases,Europe
+US,7916099,57.39,very high active cases,39.87,very few recovered cases,2.74,high deaths cases,Americas
+Uganda,10069,34.19,high active cases,64.86,few recovered cases,0.94,few deaths cases,Africa
+Ukraine,283762,54.67,very high active cases,43.44,very few recovered cases,1.89,high deaths cases,Europe
+United Arab Emirates,110039,7.21,few active cases,92.38,high recovered cases,0.41,very few deaths cases,Eastern Mediterranean
+United Kingdom,657459,93.03,very high active cases,0.39,very few recovered cases,6.58,very high deaths cases,Europe
+Uruguay,2388,13.82,few active cases,84.05,high recovered cases,2.14,high deaths cases,Americas
+Uzbekistan,61950,4.01,very few active cases,95.16,very high recovered cases,0.83,very few deaths cases,Europe
+Venezuela,85005,9.45,few active cases,89.71,high recovered cases,0.84,few deaths cases,Americas
+Vietnam,1122,5.17,few active cases,91.71,high recovered cases,3.12,high deaths cases,Western Pacific
+West Bank and Gaza,45658,13.06,few active cases,86.08,high recovered cases,0.86,few deaths cases,Eastern Mediterranean
 Western Sahara,10,10.0,few active cases,80.0,few recovered cases,10.0,very high deaths cases,Africa
 Yemen,2053,6.23,few active cases,64.73,few recovered cases,29.03,very high deaths cases,Eastern Mediterranean
-Zambia,15587,2.94,very few active cases,94.84,very high recovered cases,2.21,high deaths cases,Africa
-Zimbabwe,8036,2.17,very few active cases,94.97,very high recovered cases,2.86,high deaths cases,Africa
+Zambia,15616,2.7,very few active cases,95.09,very high recovered cases,2.21,high deaths cases,Africa
+Zimbabwe,8055,2.28,very few active cases,94.85,very high recovered cases,2.87,high deaths cases,Africa
