@@ -40,7 +40,7 @@ Colombia,930159,9.16,few active cases,87.8,high recovered cases,3.04,high deaths
 Comoros,496,1.01,very few active cases,97.58,very high recovered cases,1.41,few deaths cases,Africa
 Congo-Brazzaville,5156,22.83,high active cases,75.39,few recovered cases,1.78,few deaths cases,Africa
 Costa Rica,91780,39.76,very high active cases,59.01,very few recovered cases,1.24,few deaths cases,Americas
-Croatia,21741,14.76,high active cases,83.7,high recovered cases,1.54,few deaths cases,Europe
+Croatia,21741,14.76,few active cases,83.7,high recovered cases,1.54,few deaths cases,Europe
 Cruise Ship,721,6.52,few active cases,91.4,high recovered cases,2.08,high deaths cases,Other
 Cuba,6035,4.29,very few active cases,93.67,very high recovered cases,2.04,high deaths cases,Americas
 Cyprus,2181,32.65,high active cases,66.21,few recovered cases,1.15,few deaths cases,Europe
@@ -102,7 +102,7 @@ Liberia,1372,2.62,very few active cases,91.4,high recovered cases,5.98,very high
 Libya,45821,43.32,very high active cases,55.22,very few recovered cases,1.46,few deaths cases,Eastern Mediterranean
 Liechtenstein,174,24.14,high active cases,75.29,few recovered cases,0.57,very few deaths cases,Europe
 Lithuania,6505,53.7,very high active cases,44.63,very few recovered cases,1.68,few deaths cases,Europe
-Luxembourg,9119,11.96,few active cases,86.63,high recovered cases,1.4,few deaths cases,Europe
+Luxembourg,10030,15.86,high active cases,82.81,high recovered cases,1.33,few deaths cases,Europe
 Madagascar,16754,2.35,very few active cases,96.24,very high recovered cases,1.41,few deaths cases,Africa
 Malawi,5829,15.87,high active cases,81.03,few recovered cases,3.11,high deaths cases,Africa
 Malaysia,17540,32.88,high active cases,66.16,few recovered cases,0.95,few deaths cases,Western Pacific
