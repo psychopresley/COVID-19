@@ -1,5 +1,5 @@
 Country/Region,Confirmed,percentage of active,active cases interval,percentage of recovered,recovered cases interval,percentage of deaths,deaths cases interval,WHO region
-Afghanistan,41633,13.81,few active cases,82.49,few recovered cases,3.7,very high deaths cases,Eastern Mediterranean
+Afghanistan,41633,13.81,few active cases,82.49,high recovered cases,3.7,very high deaths cases,Eastern Mediterranean
 Albania,21523,44.74,very high active cases,52.81,very few recovered cases,2.45,high deaths cases,Europe
 Algeria,58574,27.34,high active cases,69.27,few recovered cases,3.38,very high deaths cases,Africa
 Andorra,4888,25.88,high active cases,72.59,few recovered cases,1.53,few deaths cases,Europe
@@ -36,7 +36,7 @@ Central African Republic,4866,59.19,very high active cases,39.54,very few recove
 Chad,1499,4.8,few active cases,88.66,high recovered cases,6.54,very high deaths cases,Africa
 Chile,513140,1.81,very few active cases,95.4,very high recovered cases,2.79,high deaths cases,Americas
 China,91452,0.57,very few active cases,94.25,very high recovered cases,5.18,very high deaths cases,Western Pacific
-Colombia,1004308,-1.31,very few active cases,98.16,very high recovered cases,3.15,very high deaths cases,Americas
+Colombia,1093256,6.93,few active cases,90.17,high recovered cases,2.9,high deaths cases,Americas
 Comoros,545,7.34,few active cases,91.38,high recovered cases,1.28,few deaths cases,Africa
 Congo-Brazzaville,5290,24.78,high active cases,73.48,few recovered cases,1.74,few deaths cases,Africa
 Costa Rica,111257,37.5,high active cases,61.24,few recovered cases,1.26,few deaths cases,Americas
@@ -77,7 +77,7 @@ Haiti,9057,15.41,high active cases,82.02,few recovered cases,2.56,high deaths ca
 Holy See,27,44.44,high active cases,55.56,few recovered cases,0.0,very few deaths cases,Europe
 Honduras,98405,55.49,very high active cases,41.78,very few recovered cases,2.73,high deaths cases,Americas
 Hungary,82780,72.98,very high active cases,24.74,very few recovered cases,2.28,high deaths cases,Europe
-Iceland,4931,-0.24,very few active cases,100.0,very high recovered cases,0.24,very few deaths cases,Europe
+Iceland,4931,18.43,high active cases,81.32,few recovered cases,0.24,very few deaths cases,Europe
 India,8267623,6.55,few active cases,91.96,high recovered cases,1.49,few deaths cases,South-East Asia
 Indonesia,415402,13.43,few active cases,83.19,high recovered cases,3.38,very high deaths cases,South-East Asia
 Iran,628780,16.19,high active cases,78.13,few recovered cases,5.68,very high deaths cases,Eastern Mediterranean
@@ -89,7 +89,7 @@ Ivory Coast,20753,1.05,very few active cases,98.35,very high recovered cases,0.6
 Jamaica,9257,47.64,very high active cases,50.09,very few recovered cases,2.27,high deaths cases,Americas
 Japan,102431,7.78,few active cases,90.47,high recovered cases,1.74,few deaths cases,Western Pacific
 Jordan,81743,89.27,very high active cases,9.61,very few recovered cases,1.12,few deaths cases,Eastern Mediterranean
-Kazakhstan,113309,4.18,few active cases,94.18,high recovered cases,1.64,few deaths cases,Europe
+Kazakhstan,113309,4.18,few active cases,94.18,very high recovered cases,1.64,few deaths cases,Europe
 Kenya,56601,32.03,high active cases,66.15,few recovered cases,1.81,high deaths cases,Africa
 Kosovo,20179,19.23,high active cases,77.36,few recovered cases,3.41,very high deaths cases,Europe
 Kuwait,127293,6.38,few active cases,93.0,high recovered cases,0.62,very few deaths cases,Eastern Mediterranean
@@ -125,7 +125,7 @@ Netherlands,374663,96.41,very high active cases,1.58,very few recovered cases,2.
 New Zealand,1968,3.81,very few active cases,94.92,very high recovered cases,1.27,few deaths cases,Western Pacific
 Nicaragua,5514,20.55,high active cases,76.62,few recovered cases,2.83,high deaths cases,Americas
 Niger,1222,0.98,very few active cases,93.37,high recovered cases,5.65,very high deaths cases,Africa
-Nigeria,63036,4.06,few active cases,94.12,high recovered cases,1.82,high deaths cases,Africa
+Nigeria,63036,4.06,very few active cases,94.12,very high recovered cases,1.82,high deaths cases,Africa
 North Macedonia,32997,32.51,high active cases,64.38,few recovered cases,3.11,very high deaths cases,Europe
 Norway,21339,43.09,high active cases,55.59,few recovered cases,1.32,few deaths cases,Europe
 Oman,116152,7.49,few active cases,91.43,high recovered cases,1.08,few deaths cases,Eastern Mediterranean
@@ -140,7 +140,7 @@ Portugal,146847,41.51,high active cases,56.72,few recovered cases,1.76,high deat
 Qatar,132917,2.02,very few active cases,97.8,very high recovered cases,0.17,very few deaths cases,Eastern Mediterranean
 Romania,250704,26.4,high active cases,70.75,few recovered cases,2.85,high deaths cases,Europe
 Russia,1642665,23.47,high active cases,74.81,few recovered cases,1.72,few deaths cases,Europe
-Rwanda,5155,3.84,few active cases,95.48,very high recovered cases,0.68,very few deaths cases,Africa
+Rwanda,5155,3.84,very few active cases,95.48,very high recovered cases,0.68,very few deaths cases,Africa
 Saint Kitts and Nevis,19,0.0,very few active cases,100.0,very high recovered cases,0.0,very few deaths cases,Americas
 Saint Lucia,84,66.67,very high active cases,33.33,very few recovered cases,0.0,very few deaths cases,Americas
 Saint Vincent and the Grenadines,75,5.33,few active cases,94.67,very high recovered cases,0.0,very few deaths cases,Americas
@@ -179,7 +179,7 @@ Uganda,12971,40.87,high active cases,58.25,few recovered cases,0.88,few deaths c
 Ukraine,414567,56.95,very high active cases,41.22,very few recovered cases,1.83,high deaths cases,Europe
 United Arab Emirates,135141,1.94,very few active cases,97.69,very high recovered cases,0.37,very few deaths cases,Eastern Mediterranean
 United Kingdom,1057021,95.29,very high active cases,0.27,very few recovered cases,4.44,very high deaths cases,Europe
-Uruguay,3165,14.12,high active cases,83.98,high recovered cases,1.9,high deaths cases,Americas
+Uruguay,3165,14.12,few active cases,83.98,high recovered cases,1.9,high deaths cases,Americas
 Uzbekistan,67254,3.3,very few active cases,95.85,very high recovered cases,0.85,few deaths cases,Europe
 Venezuela,92705,4.69,few active cases,94.44,very high recovered cases,0.87,few deaths cases,Americas
 Vietnam,1192,7.72,few active cases,89.35,high recovered cases,2.94,very high deaths cases,Western Pacific
