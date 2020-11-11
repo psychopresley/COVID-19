@@ -1,9 +1,10 @@
 Country/Region (group),Confirmed,Active,Recovered,Deaths,site
-Africa,1.35M,152k,1.17M,30.6k,https://www.iapb.org/wp-content/uploads/Africa-map.jpg
-Americas,21.9M,6.77M,14.4M,661k,https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Americas_%28orthographic_projection%29.svg/1200px-Americas_%28orthographic_projection%29.svg.png
-Eastern Mediterranean,3.33M,494k,2.75M,85k,https://www.iapb.org/wp-content/uploads/worldmap-eastern-mediterranean-cropped.png
-Europe,13.4M,7.94M,5.13M,314k,https://www.iapb.org/wp-content/uploads/worldmap-europe-cropped.png
+Africa,1.36M,152k,1.18M,30.9k,https://www.iapb.org/wp-content/uploads/Africa-map.jpg
+Americas,22.3M,7.05M,14.5M,666k,https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Americas_%28orthographic_projection%29.svg/1200px-Americas_%28orthographic_projection%29.svg.png
+Eastern Mediterranean,3.39M,519k,2.79M,86.7k,https://www.iapb.org/wp-content/uploads/worldmap-eastern-mediterranean-cropped.png
+Europe,13.9M,8.19M,5.38M,322k,https://www.iapb.org/wp-content/uploads/worldmap-europe-cropped.png
 Marshall Islands,1,1,0,0,
-Solomon Islands,13,9,4,0,
-South-East Asia,9.7M,697k,8.85M,150k,https://www.iapb.org/wp-content/uploads/worldmap-southeast-asia-cropped.png
-Western Pacific,755k,53.2k,685k,15.9k,https://www.iapb.org/wp-content/uploads/WPR_Map-400x267.jpg
+Solomon Islands,16,11,5,0,
+South-East Asia,9.8M,683k,8.96M,151k,https://www.iapb.org/wp-content/uploads/worldmap-southeast-asia-cropped.png
+Vanuatu,1,1,0,0,
+Western Pacific,762k,56k,690k,16k,https://www.iapb.org/wp-content/uploads/WPR_Map-400x267.jpg
