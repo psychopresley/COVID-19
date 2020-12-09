@@ -1,0 +1,58 @@
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Sat Nov  7 07:46:22 2020
+
+0 existing file(s) updated since last pull
+generating new database...
+new database generated succesfully!
+Creating world data file...
+World data report created succesfully!
+-----------
+list of diff on github repository:
+
+commit to github repository
+----
+Commit process succesfull
+----
+Repo at None successfully loaded.
+Repo local path: C:\Users\user\Documents\GitHub\COVID-19
+Repo description: covid19 data analysis git project
+Repo active branch: master
+Remote named "origin" with URL "https://github.com/psychopresley/COVID-19.git"
+Remote named "upstream" with URL "https://github.com/CSSEGISandData/COVID-19.git"
+Last commit for repo: b8c342b691bc697890194c0d5d62625f69f29def.
+----
+commit: b8c342b691bc697890194c0d5d62625f69f29def
+"automated update 2020-11-07 07h50m" by psychopresley (psychopresley@gmail.com)
+2020-11-07 07:50:34-03:00
+count: 2540 and size: 260
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Sat Nov  7 17:00:08 2020
+
+0 existing file(s) updated since last pull
+generating new database...
+new database generated succesfully!
+Creating world data file...
+World data report created succesfully!
+-----------
+list of diff on github repository:
+python/scripts/config.csv
+commit to github repository
+----
+Commit process succesfull
+----
+Repo at None successfully loaded.
+Repo local path: C:\Users\user\Documents\GitHub\COVID-19
+Repo description: covid19 data analysis git project
+Repo active branch: master
+Remote named "origin" with URL "https://github.com/psychopresley/COVID-19.git"
+Remote named "upstream" with URL "https://github.com/CSSEGISandData/COVID-19.git"
+Last commit for repo: 4da872db53be5f8e8d2a8c15492d0b93417a8e36.
+----
+commit: 4da872db53be5f8e8d2a8c15492d0b93417a8e36
+"automated update 2020-11-07 17h02m" by psychopresley (psychopresley@gmail.com)
+2020-11-07 17:02:51-03:00
+count: 2541 and size: 260

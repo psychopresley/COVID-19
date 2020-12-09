@@ -1,0 +1,112 @@
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Thu Oct 15 07:00:14 2020
+
+0 existing file(s) updated since last pull
+generating new database...
+new database generated succesfully!
+Creating world data file...
+World data report created succesfully!
+-----------
+list of diff on github repository:
+Flourish/Card plot/card_plot.csv
+Flourish/Hierarchy chart/hierarchy_chart.csv
+Flourish/Parliament map/parliament_map_country.csv
+Flourish/Parliament map/parliament_map_region.csv
+Flourish/Point map/point_map.csv
+Flourish/Racing bar chart/racing_bars_Active.csv
+Flourish/Racing bar chart/racing_bars_Confirmed.csv
+Flourish/Racing bar chart/racing_bars_Deaths.csv
+Flourish/Racing bar chart/racing_bars_Recovered.csv
+Flourish/Slope chart/slope_chart.csv
+Flourish/Survey chart/survey_chart.csv
+consolidated_data/country_report.json
+consolidated_data/province_report.csv
+consolidated_data/raw_data.csv
+commit to github repository
+----
+Commit process succesfull
+----
+Repo at None successfully loaded.
+Repo local path: C:\Users\user\Documents\GitHub\COVID-19
+Repo description: covid19 data analysis git project
+Repo active branch: master
+Remote named "origin" with URL "https://github.com/psychopresley/COVID-19.git"
+Remote named "upstream" with URL "https://github.com/CSSEGISandData/COVID-19.git"
+Last commit for repo: 0a3684dc32fd352ae65a62eee7380be34d7b6502.
+----
+commit: 0a3684dc32fd352ae65a62eee7380be34d7b6502
+"automated update 2020-10-15 07h03m" by psychopresley (psychopresley@gmail.com)
+2020-10-15 07:03:08-03:00
+count: 2294 and size: 260
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Thu Oct 15 07:52:20 2020
+
+0 existing file(s) updated since last pull
+generating new database...
+new database generated succesfully!
+Creating world data file...
+World data report created succesfully!
+-----------
+list of diff on github repository:
+Flourish/Card plot/card_plot.csv
+Flourish/Hierarchy chart/hierarchy_chart.csv
+Flourish/Parliament map/parliament_map_country.csv
+Flourish/Parliament map/parliament_map_region.csv
+Flourish/Point map/point_map.csv
+Flourish/Racing bar chart/racing_bars_Active.csv
+Flourish/Racing bar chart/racing_bars_Confirmed.csv
+Flourish/Racing bar chart/racing_bars_Deaths.csv
+Flourish/Racing bar chart/racing_bars_Recovered.csv
+Flourish/Slope chart/slope_chart.csv
+Flourish/Survey chart/survey_chart.csv
+python/scripts/config.csv
+commit to github repository
+----
+Commit process succesfull
+----
+Repo at None successfully loaded.
+Repo local path: C:\Users\user\Documents\GitHub\COVID-19
+Repo description: covid19 data analysis git project
+Repo active branch: master
+Remote named "origin" with URL "https://github.com/psychopresley/COVID-19.git"
+Remote named "upstream" with URL "https://github.com/CSSEGISandData/COVID-19.git"
+Last commit for repo: ca787e28c1f8b5f24ed6e878cb5e8175fc831adc.
+----
+commit: ca787e28c1f8b5f24ed6e878cb5e8175fc831adc
+"automated update 2020-10-15 07h55m" by psychopresley (psychopresley@gmail.com)
+2020-10-15 07:55:11-03:00
+count: 2295 and size: 260
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Thu Oct 15 20:11:03 2020
+
+7 existing file(s) updated since last pull
+generating new database...
+new database generated succesfully!
+Creating world data file...
+World data report created succesfully!
+-----------
+list of diff on github repository:
+consolidated_data/country_report.json
+consolidated_data/raw_data.csv
+commit to github repository
+----
+Commit process succesfull
+----
+Repo at None successfully loaded.
+Repo local path: C:\Users\user\Documents\GitHub\COVID-19
+Repo description: covid19 data analysis git project
+Repo active branch: master
+Remote named "origin" with URL "https://github.com/psychopresley/COVID-19.git"
+Remote named "upstream" with URL "https://github.com/CSSEGISandData/COVID-19.git"
+Last commit for repo: 05d8c01fe1189f0415b840df30f981ee531cc8a2.
+----
+commit: 05d8c01fe1189f0415b840df30f981ee531cc8a2
+"automated update 2020-10-15 20h13m" by psychopresley (psychopresley@gmail.com)
+2020-10-15 20:13:48-03:00
+count: 2305 and size: 260

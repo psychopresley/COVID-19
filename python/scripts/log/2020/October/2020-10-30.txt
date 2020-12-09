@@ -1,0 +1,61 @@
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Fri Oct 30 09:45:52 2020
+
+0 existing file(s) updated since last pull
+generating new database...
+new database generated succesfully!
+Creating world data file...
+World data report created succesfully!
+-----------
+list of diff on github repository:
+
+commit to github repository
+----
+Commit process succesfull
+----
+Repo at None successfully loaded.
+Repo local path: C:\Users\user\Documents\GitHub\COVID-19
+Repo description: covid19 data analysis git project
+Repo active branch: master
+Remote named "origin" with URL "https://github.com/psychopresley/COVID-19.git"
+Remote named "upstream" with URL "https://github.com/CSSEGISandData/COVID-19.git"
+Last commit for repo: 7daa8cbd77c92acf0297ccb1c1041f108fa6b25a.
+----
+commit: 7daa8cbd77c92acf0297ccb1c1041f108fa6b25a
+"automated update 2020-10-30 09h48m" by psychopresley (psychopresley@gmail.com)
+2020-10-30 09:48:51-03:00
+count: 2441 and size: 260
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Fri Oct 30 18:51:16 2020
+
+59 existing file(s) updated since last pull
+generating new database...
+new database generated succesfully!
+Creating world data file...
+World data report created succesfully!
+-----------
+list of diff on github repository:
+consolidated_data/country_report.json
+consolidated_data/province_report.csv
+consolidated_data/raw_data.csv
+python/scripts/config.csv
+commit to github repository
+----
+Commit process succesfull
+----
+Repo at None successfully loaded.
+Repo local path: C:\Users\user\Documents\GitHub\COVID-19
+Repo description: covid19 data analysis git project
+Repo active branch: master
+Remote named "origin" with URL "https://github.com/psychopresley/COVID-19.git"
+Remote named "upstream" with URL "https://github.com/CSSEGISandData/COVID-19.git"
+Last commit for repo: 3fc159d9b3587eb7a6f96cb3a1e817d9bd2f88dc.
+----
+commit: 3fc159d9b3587eb7a6f96cb3a1e817d9bd2f88dc
+"automated update 2020-10-30 19h00m" by psychopresley (psychopresley@gmail.com)
+2020-10-30 19:00:59-03:00
+count: 2446 and size: 260

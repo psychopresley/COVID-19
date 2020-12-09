@@ -1,0 +1,61 @@
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Thu Dec  3 07:21:34 2020
+
+0 existing file(s) updated since last pull
+generating new database...
+new database generated succesfully!
+Creating world data file...
+World data report created succesfully!
+-----------
+list of diff on github repository:
+
+commit to github repository
+----
+Commit process succesfull
+----
+Repo at None successfully loaded.
+Repo local path: C:\Users\user\Documents\GitHub\COVID-19
+Repo description: covid19 data analysis git project
+Repo active branch: master
+Remote named "origin" with URL "https://github.com/psychopresley/COVID-19.git"
+Remote named "upstream" with URL "https://github.com/CSSEGISandData/COVID-19.git"
+Last commit for repo: 54e55caaaf9831960336af0cab84a42442f65e83.
+----
+commit: 54e55caaaf9831960336af0cab84a42442f65e83
+"automated update 2020-12-03 07h26m" by psychopresley (psychopresley@gmail.com)
+2020-12-03 07:26:09-03:00
+count: 2800 and size: 260
+
+----------PYCOVID.PY SCRIPT EXECUTION REPORT-----------
+
+Local time: Thu Dec  3 17:00:23 2020
+
+3 existing file(s) updated since last pull
+generating new database...
+new database generated succesfully!
+Creating world data file...
+World data report created succesfully!
+-----------
+list of diff on github repository:
+consolidated_data/country_report.json
+consolidated_data/province_report.csv
+consolidated_data/raw_data.csv
+python/scripts/config.csv
+commit to github repository
+----
+Commit process succesfull
+----
+Repo at None successfully loaded.
+Repo local path: C:\Users\user\Documents\GitHub\COVID-19
+Repo description: covid19 data analysis git project
+Repo active branch: master
+Remote named "origin" with URL "https://github.com/psychopresley/COVID-19.git"
+Remote named "upstream" with URL "https://github.com/CSSEGISandData/COVID-19.git"
+Last commit for repo: 2c0ac1b579d402e27fafbe17d5cae7a4c14a1761.
+----
+commit: 2c0ac1b579d402e27fafbe17d5cae7a4c14a1761
+"automated update 2020-12-03 17h03m" by psychopresley (psychopresley@gmail.com)
+2020-12-03 17:03:59-03:00
+count: 2805 and size: 260
