@@ -55,7 +55,7 @@ Ecuador,207084,5.56,few active cases,87.7,high recovered cases,6.74,very high de
 Egypt,127972,10.0,few active cases,84.36,few recovered cases,5.63,very high deaths cases,Eastern Mediterranean
 El Salvador,43772,7.16,few active cases,89.93,high recovered cases,2.91,very high deaths cases,Americas
 Equatorial Guinea,5236,1.39,very few active cases,96.98,very high recovered cases,1.62,few deaths cases,Africa
-Eritrea,877,31.58,very high active cases,68.3,few recovered cases,0.11,very few deaths cases,Africa
+Eritrea,877,31.58,very high active cases,68.3,very few recovered cases,0.11,very few deaths cases,Africa
 Estonia,23309,35.26,very high active cases,63.92,very few recovered cases,0.82,few deaths cases,Europe
 Eswatini,7868,10.63,few active cases,87.43,high recovered cases,1.94,high deaths cases,Africa
 Ethiopia,120989,10.99,few active cases,87.47,high recovered cases,1.55,few deaths cases,Africa
@@ -67,7 +67,7 @@ Gambia,3791,0.24,very few active cases,96.52,very high recovered cases,3.24,very
 Georgia,214871,9.62,few active cases,89.34,high recovered cases,1.04,few deaths cases,Europe
 Germany,1604129,23.55,high active cases,74.65,few recovered cases,1.8,high deaths cases,Europe
 Ghana,54043,1.73,very few active cases,97.66,very high recovered cases,0.62,very few deaths cases,Africa
-Greece,133365,79.4,very high active cases,17.3,very few recovered cases,3.3,very high deaths cases,Europe
+Greece,133365,26.39,high active cases,70.31,few recovered cases,3.3,very high deaths cases,Europe
 Grenada,105,53.33,very high active cases,46.67,very few recovered cases,0.0,very few deaths cases,Americas
 Guatemala,134256,5.27,few active cases,91.2,high recovered cases,3.53,very high deaths cases,Americas
 Guinea,13598,3.7,very few active cases,95.71,very high recovered cases,0.59,very few deaths cases,Africa
@@ -99,7 +99,7 @@ Latvia,33484,31.3,very high active cases,67.26,very few recovered cases,1.43,few
 Lebanon,163225,28.03,high active cases,71.16,few recovered cases,0.82,few deaths cases,Eastern Mediterranean
 Lesotho,2725,44.33,very high active cases,53.8,very few recovered cases,1.87,high deaths cases,Africa
 Liberia,1779,16.3,high active cases,79.03,few recovered cases,4.67,very high deaths cases,Africa
-Libya,96346,29.27,high active cases,69.29,few recovered cases,1.45,few deaths cases,Eastern Mediterranean
+Libya,96346,29.27,very high active cases,69.29,few recovered cases,1.45,few deaths cases,Eastern Mediterranean
 Liechtenstein,1858,12.76,high active cases,85.63,high recovered cases,1.61,few deaths cases,Europe
 Lithuania,120094,52.48,very high active cases,46.57,very few recovered cases,0.95,few deaths cases,Europe
 Luxembourg,45209,15.88,high active cases,83.11,few recovered cases,1.01,few deaths cases,Europe
