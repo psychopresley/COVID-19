@@ -129,6 +129,17 @@ if __name__ == '__main__':
 		cv.flourish_slope_chart(df,file_dir,region_mapping_dict)
 
 		# ===============
+		# 8 - Heat map:
+
+		df = pd.read_json(country_report)
+		cases = ['Confirmed','Active','Recovered','Deaths']
+
+		file_dir = os.path.join(flourish_dir,'Heat map')
+		if not os.path.isdir(file_dir):
+			os.mkdir(file_dir)
+		cv.flourish_heat_map(df,cases,file_dir)
+
+		# ===============
 		# End script:
 		print('script executed succesfully.')
 		sleep(3)
